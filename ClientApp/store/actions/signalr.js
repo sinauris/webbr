@@ -1,0 +1,2 @@
+export const SIGNALR_START = 'SIGNALR_START';
+export const SIGNALR_STOP = 'SIGNALR_STOP';

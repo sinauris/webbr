@@ -1,0 +1,14 @@
+GET http://10.254.6.86:8085/render?target=Naumen.63_PR_NIK&format=json&from=-25sec
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-20T040857.200.json
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+

@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6719070d-4a55-4fe0-9b1e-704a1b747bcf" name="Default" comment="Привет, Gitlab.&#10;Прощай, NC.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/dataSources/fea37d17-df97-42b5-9e55-cf37b4bf3b5f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/dataSources/fea37d17-df97-42b5-9e55-cf37b4bf3b5f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Webbr/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/components/servers_page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/components/servers_page.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ServerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ServerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ServerModel/VirtualServerModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ServerModel/VirtualServerModels.cs" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <marker date="1566970378979" expanded="false" signature="6:536" ph="..." />
+                <marker date="1566970378979" expanded="true" signature="553:8633" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="580:8631" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="923:7776" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="1354:1586" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="1652:1849" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="1887:3076" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="2039:2499" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="2613:3061" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="2686:3043" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="3141:6192" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="3159:3232" ph="/* Роль: Guest ... */" />
+                <marker date="1566970378979" expanded="true" signature="3931:4017" ph="/* Роль: Basic ... */" />
+                <marker date="1566970378979" expanded="true" signature="4574:4653" ph="/* Роль: OtpOnly ... */" />
+                <marker date="1566970378979" expanded="true" signature="5089:5167" ph="/* Роль: Mc ... */" />
+                <marker date="1566970378979" expanded="true" signature="5537:5619" ph="/* Роль: Rg ... */" />
+                <marker date="1566970378979" expanded="true" signature="7857:8625" ph="{...}" />
+                <marker date="1566970378979" expanded="true" signature="8492:8612" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://fea37d17-df97-42b5-9e55-cf37b4bf3b5f/schema/webbr/table/dashboard_main_mts_mq_channel">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="52c65771-c7f8-412a-beeb-9f2c709246e7">
+              <filtering />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientApp/components/portmap_addon/portmap_table.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7728">
+              <caret line="484" column="102" selection-start-line="484" selection-start-column="76" selection-end-line="484" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GrafanaValue</find>
+      <find>GetNewsTitle</find>
+      <find>vmr</find>
+      <find>GetValues</find>
+      <find>AddErrorsToModelState</find>
+      <find>AddErrorToModelState</find>
+      <find>GenerateJwt</find>
+      <find>OracleConnection</find>
+      <find>OracleQueryAsync</find>
+      <find>configuration_variables_zabbix</find>
+      <find>VSphere</find>
+      <find>naumenLicenseList</find>
+      <find>drs</find>
+      <find>drst</find>
+      <find>fields</find>
+      <find>ConfigureAppConfiguration</find>
+      <find>builder</find>
+      <find>icon</find>
+      <find>conf</find>
+      <find>GetEnvironmentVariable</find>
+      <find>includes</find>
+      <find>formatBytes</find>
+      <find>toUpperCase</find>
+      <find>vmGroup</find>
+      <find>data.v</find>
+      <find>row.d</find>
+      <find>regex</find>
+      <find>getGroupAnnotation</find>
+      <find>value</find>
+      <find>radioHypervisorSelected</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sip503</replace>
+      <replace>linkEdit</replace>
+      <replace>response.data.items</replace>
+      <replace>action-button</replace>
+      <replace>snmp_oid</replace>
+      <replace>v</replace>
+      <replace>#007bff</replace>
+      <replace>var(--danger)</replace>
+      <replace>var(--success)</replace>
+      <replace>var(--warning)</replace>
+      <replace>#ff0000</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="asphy &lt;lolnickname1@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ant-desing" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/97730C0A-0DFB-414E-8043-E40646BF3F35/87/e50521ec/Ssh.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Jwt/Helpers/Tokens.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Jwt/Helpers/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Jwt/Helpers/Errors.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Jwt/JwtFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Jwt/JwtIssuerOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35D1D668-9205-4C08-8AC0-8401C2EDB00B/1d/d4211a1f/Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/430F5750-837A-4A6F-88D4-DD326217C731/66/c948a670/GraphiteClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/MtsModel/MqMsgModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/64D08341-17B3-488B-AEA6-2CA60ABE6720/40/5ce91462/ParallelForEachExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EF11382-C1BB-450D-9203-B126A46C802D/d9/9f3ea733/EnumerableSorter`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/e1/66e7222b/WaitHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90E93788-E934-48B7-A7CB-CECAB05F4851/62/d945fc6f/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/MtsModel/MqChannelModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/MtsModel/MqQueueModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8C14FD2-C2E1-4728-81C1-3AB0DF2A2842/2c/c0cb21ca/ProcessEx.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C4C98C51-6D55-46B2-AFFD-4410FDD4C318/3e/66361025/EnvironmentVariablesExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/36/00638346/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F3B17D7-C080-40AD-AD7D-0C18A974DB2E/78/fc369657/ipn160d5.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0E5B290-CC05-440E-A76D-C4B2342D7459/71/da89f31d/LdapConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/ConfigurationModel/ConfigurationDashboardServerModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/ConfigurationModel/ConfigurationPersonalRoles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/GrafanaTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F3B17D7-C080-40AD-AD7D-0C18A974DB2E/05/e412fee9/ipn160d4.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/ConfigurationModel/ConfigurationPlaceModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/ConfigurationModel/ConfigurationCommutatorModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/DashboardModel/GrafanaModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F0E5B290-CC05-440E-A76D-C4B2342D7459/9a/5cc0d60b/Connection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/DashboardModel/GrafanaSectionModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/PersonalModel/MainPersonalModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/InventoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/PortmapModel/MainPortmapModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F3B17D7-C080-40AD-AD7D-0C18A974DB2E/6e/1ba2ffff/Snmptcpmgr.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/PortmapModel/CommutatorModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/PortmapModel/DHCPModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/DomainModels/DomainUserModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6F3B17D7-C080-40AD-AD7D-0C18A974DB2E/f7/d15443ec/Snmpmgr.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/DomainModels/DomainUserAuthModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/DomainModels/DomainComputerModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/DomainModels/DomainGroupModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/ServerModel/VirtualServerModels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2DDBDA9-1E09-414A-801B-36BA566856C2/c2/8f6bad2b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TasksModel/GrafanaTaskDbModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TasksModel/TelephonyTaskDbModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TasksModel/GrafanaNaumenHosts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TasksModel/ZabbixTriggerTaskDbModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9DE46E3C-963E-4872-8A29-95FD027553CC/6c/16f4ec57/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TasksModel/UpsTaskDbModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/IndexModel/NewsModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/IndexModel/IndexLinkModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/c9/e871ef2b/Monitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/IndexModel/IndexSectionModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/DutyModel/DutyModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7BF66947-F1D8-4365-BCA6-D88A390E04DC/3E/GetBulkRequestMessage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/NaumenEmployeeDbModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7BF66947-F1D8-4365-BCA6-D88A390E04DC/4F/SnmpMessageExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/670FAF68-729C-447B-9DBA-1F6164585924/17/a56a44b5/ConnectionInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/InventoryModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57139BFC-E1DA-4913-8884-2BBBF31D74D3/00/b160f7a2/CancellationTokenSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/PlacesModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/NaumenLicenseParseModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/DomainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B0041E4D-3202-4A34-AE4C-BB2D702086BB/B/SqlMapper.Async.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90E93788-E934-48B7-A7CB-CECAB05F4851/75/9b785b18/Monitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7BF66947-F1D8-4365-BCA6-D88A390E04DC/24/Variable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/DomainTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7BF66947-F1D8-4365-BCA6-D88A390E04DC/49/Messenger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/WebbrSsh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/WebbrLogger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/PortmapController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/DutyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hubs/WebbrHub.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ConfigurationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/IndexController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/DashboardController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/CommandsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/PlacesViewModel/CreatePlacesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/PlacesViewModel/UpdatePlacesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/PlacesViewModel/SwitchPlacesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/PlacesViewModel/DeletePlacesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E718A-C42E-4542-A71B-54CEC3EF156B/18/1e86c897/WebHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/ConfigurationUsersBanned.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/ConfigurationUsersRole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/ConfigurationUsersDelete.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/ConfigurationDashboardServersCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/ConfigurationCommutatorSwitchState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/ConfigurationCommutatorCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/ConfigurationCommutatorUpdate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/ConfigurationViewModel/ConfigurationCommutatorDelete.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/VncVOCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/CmdCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/ShutdownWindowsCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/RebootLinuxCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/PwsCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/PulseCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/MessageCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/ExplorerDCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/ShutdownLinuxCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/RdpCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/ExplorerCCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/RebootWindowsCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A48845B2-D1C8-486A-B197-3C65679F92E3/0b/4a77a591/ProcessEx.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/RseCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CommandsViewModel/VncCommandViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/PortmapViewModel/DeletePortmapViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/PortmapViewModel/UpdatePortmapViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/DomainViewModel/GetDomainComputerLocalAdminPwd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/DomainViewModel/ResetPasswordDomainUserViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/DomainViewModel/CreateDomainUserViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/DomainViewModel/ChangeStateDomainUserViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/MtsTunnelTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/DomainViewModel/CheckDomainUserExistViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/IndexViewModel/IndexSectionDeleteViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/IndexViewModel/IndexLinkUpdateViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/IndexViewModel/CreateNewsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/IndexViewModel/IndexLinkCreateViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/IndexViewModel/IndexSectionCreateViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/IndexViewModel/DeleteNewsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/IndexViewModel/IndexLinkDeleteViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/IndexViewModel/UpdateNewsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/IndexViewModel/IndexSectionUpdateViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/DutyViewModel/UpdateDutyViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/DutyViewModel/CreateDutyViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/DutyViewModel/DeleteDutyViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/CredentialsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/MtsMgwAgentTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/MtsMgwJobsTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ServerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/ServerTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/MtsImportTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/MtsModel/MgwJobsDbModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/WebbrDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/UpsTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/PortmapTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TasksModel/HypervisorsModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TasksModel/NaumenAuthModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TasksModel/ZabbixAuthModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/ZabbixTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/TasksModel/NaumenListModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/NaumenTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/NaumenLicenseTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/MtsModel/MgwAgentDbModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/MtsChannelTask.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Models/DomainModels/DomainUserAuthModel.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/components/portmap_addon/portmap_info.vue" />
+        <option value="$PROJECT_DIR$/Controllers/CommandsController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/ConfigurationController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/DashboardController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/DutyController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/InventoryController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/IndexController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/PortmapController.cs" />
+        <option value="$PROJECT_DIR$/Extensions/WebbrLogger.cs" />
+        <option value="$PROJECT_DIR$/Extensions/WebbrSsh.cs" />
+        <option value="$PROJECT_DIR$/Hubs/WebbrHub.cs" />
+        <option value="$PROJECT_DIR$/Jwt/JwtIssuerOptions.cs" />
+        <option value="$PROJECT_DIR$/Jwt/JwtFactory.cs" />
+        <option value="$PROJECT_DIR$/Jwt/Helpers/Constants.cs" />
+        <option value="$PROJECT_DIR$/Jwt/Helpers/Errors.cs" />
+        <option value="$PROJECT_DIR$/Jwt/Helpers/Tokens.cs" />
+        <option value="$PROJECT_DIR$/Controllers/DomainController.cs" />
+        <option value="$PROJECT_DIR$/Tasks/DomainTask.cs" />
+        <option value="$PROJECT_DIR$/Tasks/GrafanaTask.cs" />
+        <option value="$PROJECT_DIR$/Models/MtsModel/MqQueue.cs" />
+        <option value="$PROJECT_DIR$/Models/MtsModel/MqQueueModel.cs" />
+        <option value="$PROJECT_DIR$/Models/MtsModel/MqChannelModel.cs" />
+        <option value="$PROJECT_DIR$/Models/MtsModel/MqMsgModel.cs" />
+        <option value="$PROJECT_DIR$/Tasks/MtsChannelTask.cs" />
+        <option value="$PROJECT_DIR$/Tasks/MtsImportTask.cs" />
+        <option value="$PROJECT_DIR$/Models/MtsModel/MgwAgentDbModel.cs" />
+        <option value="$PROJECT_DIR$/Models/MtsModel/MgwJobsDbModel.cs" />
+        <option value="$PROJECT_DIR$/Tasks/MtsMgwAgentTask.cs" />
+        <option value="$PROJECT_DIR$/Tasks/MtsTunnelTask.cs" />
+        <option value="$PROJECT_DIR$/Tasks/NaumenTask.cs" />
+        <option value="$PROJECT_DIR$/Models/TasksModel/ZabbixAuthModel.cs" />
+        <option value="$PROJECT_DIR$/Models/TasksModel/NaumenAuthModel.cs" />
+        <option value="$PROJECT_DIR$/Tasks/NaumenLicenseTask.cs" />
+        <option value="$PROJECT_DIR$/Models/TasksModel/NaumenListModel.cs" />
+        <option value="$PROJECT_DIR$/Models/TasksModel/HypervisorsModel.cs" />
+        <option value="$PROJECT_DIR$/Tasks/UpsTask.cs" />
+        <option value="$PROJECT_DIR$/Tasks/ZabbixTask.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/components/dashboard_page.vue" />
+        <option value="$PROJECT_DIR$/Tasks/PortmapTask.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/components/portmap_addon/portmap_table.vue" />
+        <option value="$PROJECT_DIR$/Extensions/WebbrDatabase.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/Tasks/ServerTask.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/853bc109-30d2-4730-9232-67a9f3b56404/console.sql" />
+        <option value="$PROJECT_DIR$/Tasks/MtsMgwJobsTask.cs" />
+        <option value="$PROJECT_DIR$/Controllers/ServerController.cs" />
+        <option value="$PROJECT_DIR$/Models/ServerModel/VirtualServerModels.cs" />
+        <option value="$PROJECT_DIR$/ClientApp/components/servers_page.vue" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="66" />
+    <option name="y" value="15" />
+    <option name="width" value="1936" />
+    <option name="height" value="1186" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Webbr" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Webbr" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Webbr" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="5427d58d:AssemblyExplorerRootNode" />
+              <item name="SharpSnmpLib (11.1.0.0, msil, .NETCoreApp v2.2.5)" type="5e97225f:AssemblyExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="5427d58d:AssemblyExplorerRootNode" />
+              <item name="SharpSnmpLib (11.1.0.0, msil, .NETCoreApp v2.2.5)" type="5e97225f:AssemblyExplorerNode" />
+              <item name="Lextm.SharpSnmpLib" type="5e97225f:AssemblyExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="redshift&#10;oracle" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle&#10;MySQL&#10;PostgreSQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.10.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mq/amqmdnetstd.dll" />
+    <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://10.254.6.86:8085/render" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="target" />
+                <option name="value" value="Naumen.63_PR_NIK" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="format" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="from" />
+                <option name="value" value="-25sec" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Development">
+    <configuration name="Development" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Release/netcoreapp2.2/WebbrVue.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000/" />
+        <env name="NODE_ENV" value="development" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Webbr.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <browser url="http://localhost:5000/" name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" with-js-debugger="true" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Production" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Release/netcoreapp2.2/WebbrVue.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Production" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000/" />
+        <env name="NODE_ENV" value="production" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Webbr.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <browser url="http://localhost:35172/" with-js-debugger="true" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Release/netcoreapp2.2/WebbrVue.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WebbrVue.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" singleton="false" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="containerName" value="webbrize_build_2.6" />
+          <option name="entrypoint" value="" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="ASPNETCORE_ENVIRONMENT" />
+                <option name="value" value="Production" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="NODE_ENV" />
+                <option name="value" value="production" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="ASPNETCORE_URLS" />
+                <option name="value" value="http://0.0.0.0:5000" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="TZ" />
+                <option name="value" value="Europe/Moscow" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="imageTag" value="webbrize:2.6" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5000" />
+                <option name="hostPort" value="5001" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="install" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="install" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Development" />
+      <item itemvalue=".NET Project.Production" />
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="npm.install" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.install" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6719070d-4a55-4fe0-9b1e-704a1b747bcf" name="Default" comment="" />
+      <created>1531464067739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531464067739</updated>
+      <workItem from="1531464099135" duration="384000" />
+      <workItem from="1531474183939" duration="8490000" />
+      <workItem from="1531488881289" duration="25000" />
+      <workItem from="1531489186108" duration="77000" />
+      <workItem from="1531489286605" duration="280000" />
+      <workItem from="1531490172824" duration="163000" />
+      <workItem from="1531492245441" duration="84000" />
+      <workItem from="1531492579680" duration="2107000" />
+      <workItem from="1531723296052" duration="7247000" />
+      <workItem from="1531810162444" duration="5871000" />
+      <workItem from="1531818704191" duration="12732000" />
+      <workItem from="1531925951979" duration="2742000" />
+      <workItem from="1532932748306" duration="3778000" />
+      <workItem from="1532939163025" duration="5177000" />
+      <workItem from="1533203004119" duration="773000" />
+      <workItem from="1533204072590" duration="242000" />
+      <workItem from="1533204390313" duration="89000" />
+      <workItem from="1533205122332" duration="52000" />
+      <workItem from="1533205189480" duration="756000" />
+      <workItem from="1533207642486" duration="425000" />
+      <workItem from="1533208176700" duration="457000" />
+      <workItem from="1533208703136" duration="188000" />
+      <workItem from="1533208942743" duration="262000" />
+      <workItem from="1533209236756" duration="188000" />
+      <workItem from="1533210533851" duration="1118000" />
+      <workItem from="1533301566104" duration="1226000" />
+      <workItem from="1533305005673" duration="185000" />
+      <workItem from="1533306139219" duration="738000" />
+      <workItem from="1533307078482" duration="14217000" />
+      <workItem from="1533565836389" duration="1611000" />
+      <workItem from="1533626770797" duration="51854000" />
+      <workItem from="1534172469885" duration="81000" />
+      <workItem from="1534228460542" duration="18203000" />
+      <workItem from="1534256689503" duration="342000" />
+      <workItem from="1534257110533" duration="50225000" />
+      <workItem from="1534501437199" duration="1423000" />
+      <workItem from="1534746701538" duration="1000" />
+      <workItem from="1534746817079" duration="89448000" />
+      <workItem from="1535361358478" duration="14055000" />
+      <workItem from="1535440989739" duration="178000" />
+      <workItem from="1535441230148" duration="59089000" />
+      <workItem from="1535717893765" duration="1123000" />
+      <workItem from="1535719108506" duration="27304000" />
+      <workItem from="1536054823950" duration="39882000" />
+      <workItem from="1536215902944" duration="12839000" />
+      <workItem from="1536232326496" duration="16993000" />
+      <workItem from="1536305284797" duration="20524000" />
+      <workItem from="1536403724116" duration="55522000" />
+      <workItem from="1536653715144" duration="51950000" />
+      <workItem from="1536837996434" duration="6359000" />
+      <workItem from="1537102795428" duration="189000" />
+      <workItem from="1537104528907" duration="2248000" />
+      <workItem from="1537109680602" duration="1467000" />
+      <workItem from="1537166350779" duration="145812000" />
+      <workItem from="1538295962102" duration="7641000" />
+      <workItem from="1538307502585" duration="5299000" />
+      <workItem from="1538316769063" duration="1906000" />
+      <workItem from="1538318866921" duration="945000" />
+      <workItem from="1538319936165" duration="5736000" />
+      <workItem from="1538378827699" duration="8528000" />
+      <workItem from="1538400401191" duration="400000" />
+      <workItem from="1538400862841" duration="885000" />
+      <workItem from="1538401885594" duration="131000" />
+      <workItem from="1538402109208" duration="1594000" />
+      <workItem from="1538462053271" duration="5385000" />
+      <workItem from="1538552129000" duration="6000" />
+      <workItem from="1538569445307" duration="679000" />
+      <workItem from="1538654696363" duration="12204000" />
+      <workItem from="1538758726949" duration="2134000" />
+      <workItem from="1538820081332" duration="1548000" />
+      <workItem from="1538825605349" duration="22551000" />
+      <workItem from="1538983532253" duration="46740000" />
+      <workItem from="1539327620722" duration="175605000" />
+      <workItem from="1539970074388" duration="6000" />
+      <workItem from="1539970369929" duration="3931000" />
+      <workItem from="1540021548473" duration="308000" />
+      <workItem from="1540021919357" duration="30051000" />
+      <workItem from="1540136012390" duration="175000" />
+      <workItem from="1540191190529" duration="28149000" />
+      <workItem from="1540300102011" duration="964000" />
+      <workItem from="1540301174047" duration="30015000" />
+      <workItem from="1540392061990" duration="46342000" />
+      <workItem from="1540546205148" duration="16765000" />
+      <workItem from="1540796531046" duration="1934000" />
+      <workItem from="1540812912843" duration="1888000" />
+      <workItem from="1540821083206" duration="2197000" />
+      <workItem from="1540883809072" duration="37511000" />
+      <workItem from="1541068321932" duration="566000" />
+      <workItem from="1541068935527" duration="13990000" />
+      <workItem from="1541088026251" duration="43056000" />
+      <workItem from="1541495840396" duration="35666000" />
+      <workItem from="1542106351605" duration="1987000" />
+      <workItem from="1542691492633" duration="7463000" />
+      <workItem from="1542726474560" duration="5312000" />
+      <workItem from="1542784076779" duration="17402000" />
+      <workItem from="1542811349401" duration="24166000" />
+      <workItem from="1542896651168" duration="15665000" />
+      <workItem from="1543212513590" duration="130897000" />
+      <workItem from="1544077224903" duration="449000" />
+      <workItem from="1544080506741" duration="14510000" />
+      <workItem from="1544169382583" duration="649000" />
+      <workItem from="1544190871473" duration="7188000" />
+      <workItem from="1544441077957" duration="14680000" />
+      <workItem from="1544625785677" duration="20970000" />
+      <workItem from="1544767183427" duration="28160000" />
+      <workItem from="1545114052125" duration="74754000" />
+      <workItem from="1545387961799" duration="15083000" />
+      <workItem from="1545630003417" duration="30224000" />
+      <workItem from="1545731179361" duration="19112000" />
+      <workItem from="1545891636990" duration="619000" />
+      <workItem from="1545892337871" duration="1579000" />
+      <workItem from="1545977535539" duration="777000" />
+      <workItem from="1545978635379" duration="18000" />
+      <workItem from="1546006852651" duration="34349000" />
+      <workItem from="1547123086688" duration="21638000" />
+      <workItem from="1547219361787" duration="62375000" />
+      <workItem from="1547789029462" duration="295000" />
+      <workItem from="1547790730809" duration="1012000" />
+      <workItem from="1547794745715" duration="291000" />
+      <workItem from="1547798745435" duration="44407000" />
+      <workItem from="1547910571611" duration="31213000" />
+      <workItem from="1548082577746" duration="3355000" />
+      <workItem from="1550648078572" duration="814000" />
+      <workItem from="1550649319195" duration="709000" />
+      <workItem from="1550650131953" duration="132000" />
+      <workItem from="1550650326837" duration="4339000" />
+      <workItem from="1550658203349" duration="15126000" />
+      <workItem from="1550823690476" duration="233000" />
+      <workItem from="1550823955005" duration="608000" />
+      <workItem from="1550826980489" duration="212000" />
+      <workItem from="1550827908220" duration="194000" />
+      <workItem from="1550828178696" duration="5500000" />
+      <workItem from="1550839869210" duration="1072000" />
+      <workItem from="1551073011603" duration="8224000" />
+      <workItem from="1551087011189" duration="609000" />
+      <workItem from="1551179186654" duration="94000" />
+      <workItem from="1551332640504" duration="3467000" />
+      <workItem from="1551419674161" duration="4401000" />
+      <workItem from="1557229317774" duration="26306000" />
+      <workItem from="1557746663004" duration="54176000" />
+      <workItem from="1557936811740" duration="4311000" />
+      <workItem from="1557983022556" duration="24720000" />
+      <workItem from="1558331614775" duration="10419000" />
+      <workItem from="1558350964129" duration="20756000" />
+      <workItem from="1558518616516" duration="79311000" />
+      <workItem from="1559107323708" duration="3930000" />
+      <workItem from="1559128400595" duration="599000" />
+      <workItem from="1559132392676" duration="17792000" />
+      <workItem from="1559289109594" duration="95200000" />
+      <workItem from="1559817610379" duration="1485000" />
+      <workItem from="1559824744233" duration="26947000" />
+      <workItem from="1559914954873" duration="1081000" />
+      <workItem from="1560143014388" duration="730000" />
+      <workItem from="1560143899227" duration="4749000" />
+      <workItem from="1560254504632" duration="28973000" />
+      <workItem from="1560489888042" duration="33989000" />
+      <workItem from="1560709816653" duration="592000" />
+      <workItem from="1560753917265" duration="45609000" />
+      <workItem from="1561008345672" duration="65616000" />
+      <workItem from="1562058082974" duration="604000" />
+      <workItem from="1562131524337" duration="3375000" />
+      <workItem from="1563200090426" duration="700000" />
+      <workItem from="1563345500283" duration="11719000" />
+      <workItem from="1564990333212" duration="2429000" />
+      <workItem from="1565695559873" duration="11467000" />
+      <workItem from="1565776259572" duration="7511000" />
+      <workItem from="1565792021496" duration="1617000" />
+      <workItem from="1565793705038" duration="4496000" />
+      <workItem from="1566198049504" duration="3266000" />
+      <workItem from="1566203655617" duration="147000" />
+      <workItem from="1566203854706" duration="17702000" />
+      <workItem from="1566374910312" duration="4047000" />
+      <workItem from="1566455190658" duration="452000" />
+      <workItem from="1566554681801" duration="6708000" />
+      <workItem from="1566891118471" duration="2583000" />
+      <workItem from="1566970363606" duration="699000" />
+    </task>
+    <task id="LOCAL-00001" summary="Первый коммит после переезда на Mac.">
+      <created>1533306273532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533306273532</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Коммит до отъезда с Mac.">
+      <created>1536846671720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536846671720</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Коммит до удаления телеграмма.&#10;Больше не требуется в связи с переездом на ITSM365.">
+      <created>1537881388148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537881388148</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Новый старый коммит.">
+      <created>1546517641858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546517641858</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Перед удалением экшенов Inventory">
+      <created>1557232638360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557232638360</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Обновление 2.6">
+      <created>1557929109348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557929109349</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Rebase on Github. Update 2.7">
+      <created>1559114937656</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559114937656</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add files">
+      <created>1559115146650</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559115146650</updated>
+    </task>
+    <task id="LOCAL-00009" summary="WTF ONEDRIVE">
+      <created>1561067802270</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561067802270</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Привет, Gitlab.&#10;Прощай, NC.">
+      <created>1566455511124</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566455511124</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Привет, Gitlab.&#10;Прощай, NC.">
+      <created>1566455553397</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566455553397</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2662402000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62341774" visible="true" weight="0.19189766" />
+      <window_info id="npm" order="1" sideWeight="0.37658226" side_tool="true" weight="0.16044776" />
+      <window_info id="Structure" order="2" sideWeight="0.5227586" side_tool="true" weight="0.18230277" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32771537" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8955224" weight="0.4082397" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8901919" weight="0.36235955" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.3286517" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.11673774" side_tool="true" weight="0.3829588" />
+      <window_info anchor="bottom" id="Unit Tests" order="8" weight="0.3281704" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32889733" />
+      <window_info anchor="bottom" id="REST Client" order="10" weight="0.32889733" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32771537" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32763532" />
+      <window_info anchor="bottom" id="NuGet" order="13" sideWeight="0.67164177" weight="0.45411986" />
+      <window_info anchor="bottom" id="Docker" order="14" sideWeight="0.75959486" weight="0.562701" />
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.8832623" weight="0.3829588" />
+      <window_info anchor="bottom" id="TypeScript" order="16" weight="0.3281704" />
+      <window_info anchor="bottom" id="Database Console" order="17" weight="0.29868913" />
+      <window_info anchor="bottom" id="Unit Tests Coverage" order="18" weight="0.3298479" />
+      <window_info anchor="bottom" id="Errors In Solution" order="19" weight="0.3286517" />
+      <window_info anchor="bottom" id="Messages" order="20" weight="0.3298479" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.20095949" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Первый коммит после переезда на Mac." />
+    <MESSAGE value="Коммит до отъезда с Mac." />
+    <MESSAGE value="Коммит до удаления телеграмма.&#10;Больше не требуется в связи с переездом на ITSM365." />
+    <MESSAGE value="Новый старый коммит." />
+    <MESSAGE value="Перед удалением экшенов Inventory" />
+    <MESSAGE value="Обновление 2.6" />
+    <MESSAGE value="Rebase on Github. Update 2.7" />
+    <MESSAGE value="Add files" />
+    <MESSAGE value="WTF ONEDRIVE" />
+    <MESSAGE value="Привет, Gitlab.&#10;Прощай, NC." />
+    <option name="LAST_COMMIT_MESSAGE" value="Привет, Gitlab.&#10;Прощай, NC." />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="this.Clients.All._lifetimeManager" />
+        <watch expression="this.newEraTempList.Items[0]" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>&lt;&gt;8__1.testlist</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Jwt/Helpers/Constants.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding>
+            <marker date="1566213151367" expanded="true" signature="63:1814" ph="{...}" />
+            <marker date="1566213151367" expanded="true" signature="117:412" ph="{...}" />
+            <marker date="1566213151367" expanded="true" signature="451:957" ph="{...}" />
+            <marker date="1566213151367" expanded="true" signature="996:1607" ph="{...}" />
+            <marker date="1566213151367" expanded="true" signature="1647:1808" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jwt/Helpers/Tokens.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="11" selection-start-line="9" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <marker date="1566213392415" expanded="false" signature="6:101" ph="..." />
+            <marker date="1566213392415" expanded="true" signature="130:809" ph="{...}" />
+            <marker date="1566213392415" expanded="true" signature="156:807" ph="{...}" />
+            <marker date="1566213392415" expanded="true" signature="163:801" ph="/* public static async Task&lt;string&gt; GenerateJwt(ClaimsIdentity identity, IJwtFactory jwtFactory, string userName, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jwt/Helpers/Errors.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding>
+            <marker date="1566213171484" expanded="false" signature="6:81" ph="..." />
+            <marker date="1566213171484" expanded="true" signature="143:398" ph="{...}" />
+            <marker date="1566213171484" expanded="true" signature="280:392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/DomainTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="533" column="1" selection-start-line="533" selection-start-column="1" selection-end-line="533" selection-end-column="1" />
+          <folding>
+            <marker date="1566213387916" expanded="true" signature="6:375" ph="..." />
+            <marker date="1566213387916" expanded="true" signature="440:30976" ph="{...}" />
+            <marker date="1566213387916" expanded="false" signature="455:589" ph="Field" />
+            <marker date="1566213387916" expanded="false" signature="599:817" ph="Constructor" />
+            <marker date="1566213387916" expanded="true" signature="700:798" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="957:1502" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="1140:1492" ph="{...}" />
+            <marker date="1566213387916" expanded="false" signature="1512:9554" ph="GetComputers" />
+            <marker date="1566213387916" expanded="true" signature="1623:9535" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="1704:9525" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="1945:2247" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="2456:9511" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="2524:8602" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="3288:8580" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="3388:7518" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="3454:7447" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="3690:4043" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="4214:5004" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="4536:4966" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="5175:5528" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="5692:6018" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="6170:7411" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="7551:8554" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="7785:8524" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="7889:8490" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="8013:8452" ph="{...}" />
+            <marker date="1566213387916" expanded="false" signature="9564:21640" ph="GetUsers" />
+            <marker date="1566213387916" expanded="true" signature="9686:21621" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="9767:21611" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="10004:10416" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="10625:21597" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="10693:20305" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="11458:20283" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="11558:19221" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="11624:19150" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="11931:12898" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="12143:12860" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="12977:13016" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="13139:13663" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="13742:13781" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="13897:14333" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="14412:14451" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="14566:14904" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="14983:15022" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="15327:16120" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="15606:15875" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="15920:16082" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="16199:16312" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="16415:19114" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="19254:20257" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="19488:20227" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="19592:20193" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="19716:20155" ph="{...}" />
+            <marker date="1566213387916" expanded="false" signature="21650:28588" ph="GetGroups" />
+            <marker date="1566213387916" expanded="true" signature="21755:28569" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="21836:28559" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="22074:22240" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="22449:28545" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="22517:27773" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="23278:27751" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="23378:26689" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="23444:26618" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="23659:23980" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="24133:24458" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="24617:24967" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="25125:25475" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="25624:26582" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="26722:27725" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="26956:27695" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="27060:27661" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="27184:27623" ph="{...}" />
+            <marker date="1566213387916" expanded="false" signature="28599:29297" ph="GetUserSupportedEncryptionType" />
+            <marker date="1566213387916" expanded="true" signature="28707:29278" ph="{...}" />
+            <marker date="1566213387916" expanded="false" signature="29307:30970" ph="GetUserAccountType" />
+            <marker date="1566213387916" expanded="true" signature="29411:30951" ph="{...}" />
+            <marker date="1566213387916" expanded="true" signature="31010:31184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/DomainController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <marker date="1566213446311" expanded="false" signature="6:456" ph="..." />
+            <marker date="1566213446311" expanded="true" signature="656:14849" ph="{...}" />
+            <marker date="1566213446311" expanded="false" signature="671:1346" ph="Fields" />
+            <marker date="1566213446311" expanded="false" signature="1364:1650" ph="Constructor" />
+            <marker date="1566213446311" expanded="true" signature="1495:1631" ph="{...}" />
+            <marker date="1566213446311" expanded="false" signature="1661:2885" ph="Token" />
+            <marker date="1566213446311" expanded="true" signature="1810:2866" ph="{...}" />
+            <marker date="1566213446311" expanded="false" signature="2895:3549" ph="GenerateJwt" />
+            <marker date="1566213446311" expanded="true" signature="3077:3530" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="3200:3440" ph="{...}" />
+            <marker date="1566213446311" expanded="false" signature="3567:4256" ph="TokenClaims" />
+            <marker date="1566213446311" expanded="true" signature="3664:4237" ph="{...}" />
+            <marker date="1566213446311" expanded="false" signature="4266:12471" ph="Login" />
+            <marker date="1566213446311" expanded="true" signature="4366:12452" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="5124:5288" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="5380:11711" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="5577:11357" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="5777:11331" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="6095:6305" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="6436:6642" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="6773:6979" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="7111:7319" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="7357:7735" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="7495:7700" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="8297:8494" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="10428:10706" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="10806:11300" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="11386:11693" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="11500:11666" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="11750:11984" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="11823:11965" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="12065:12201" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="12332:12441" ph="{...}" />
+            <marker date="1566213446311" expanded="false" signature="12490:13298" ph="GetDomainUsers" />
+            <marker date="1566213446311" expanded="true" signature="12603:13279" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="12698:13244" ph="{...}" />
+            <marker date="1566213446311" expanded="false" signature="13316:14123" ph="GetDomainComputers" />
+            <marker date="1566213446311" expanded="true" signature="13441:14104" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="13544:14069" ph="{...}" />
+            <marker date="1566213446311" expanded="false" signature="14133:14843" ph="GetDomainGroups" />
+            <marker date="1566213446311" expanded="true" signature="14249:14824" ph="{...}" />
+            <marker date="1566213446311" expanded="true" signature="14346:14789" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/GrafanaTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1566213445324" expanded="false" signature="6:343" ph="..." />
+            <marker date="1566213445324" expanded="true" signature="366:3246" ph="{...}" />
+            <marker date="1566213445324" expanded="true" signature="409:3244" ph="{...}" />
+            <marker date="1566213445324" expanded="false" signature="424:603" ph="Field" />
+            <marker date="1566213445324" expanded="false" signature="613:902" ph="Constructor" />
+            <marker date="1566213445324" expanded="true" signature="746:883" ph="{...}" />
+            <marker date="1566213445324" expanded="true" signature="1042:1095" ph="{...}" />
+            <marker date="1566213445324" expanded="false" signature="1106:3238" ph="GrafanaData" />
+            <marker date="1566213445324" expanded="true" signature="1166:3219" ph="{...}" />
+            <marker date="1566213445324" expanded="true" signature="2254:2633" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/MtsModel/MqQueueModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <marker date="1566213654131" expanded="true" signature="31:358" ph="{...}" />
+            <marker date="1566213654131" expanded="true" signature="63:356" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/MtsModel/MqChannelModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <marker date="1566213653105" expanded="true" signature="31:579" ph="{...}" />
+            <marker date="1566213653105" expanded="true" signature="65:577" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/MtsModel/MqMsgModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1566213715165" expanded="true" signature="31:456" ph="{...}" />
+            <marker date="1566213715165" expanded="true" signature="61:454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/MtsChannelTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1566213709093" expanded="false" signature="6:375" ph="..." />
+            <marker date="1566213709093" expanded="true" signature="398:10336" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="444:10334" ph="{...}" />
+            <marker date="1566213709093" expanded="false" signature="459:638" ph="Field" />
+            <marker date="1566213709093" expanded="false" signature="648:940" ph="Constructor" />
+            <marker date="1566213709093" expanded="true" signature="784:921" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="1072:1128" ph="{...}" />
+            <marker date="1566213709093" expanded="false" signature="1139:5968" ph="CheckMqChannel" />
+            <marker date="1566213709093" expanded="true" signature="1205:5949" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="1599:4239" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="2214:2380" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="2434:3514" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="2531:3494" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="3600:4189" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="3693:4076" ph="{...}" />
+            <marker date="1566213709093" expanded="false" signature="5986:6356" ph="GetQueueDepth" />
+            <marker date="1566213709093" expanded="true" signature="6087:6337" ph="{...}" />
+            <marker date="1566213709093" expanded="false" signature="6366:7914" ph="GetQueueMsg" />
+            <marker date="1566213709093" expanded="true" signature="6514:7895" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="6771:7831" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="6853:7728" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="6959:7710" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="7154:7638" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="7767:7817" ph="{...}" />
+            <marker date="1566213709093" expanded="false" signature="7925:8885" ph="GetMqChannelStatus" />
+            <marker date="1566213709093" expanded="true" signature="8012:8866" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="8050:8856" ph="{...}" />
+            <marker date="1566213709093" expanded="false" signature="8895:10328" ph="GetMqChannelState" />
+            <marker date="1566213709093" expanded="true" signature="8979:10309" ph="{...}" />
+            <marker date="1566213709093" expanded="true" signature="9016:10299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/MtsModel/MgwAgentDbModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1566214254485" expanded="true" signature="31:996" ph="{...}" />
+            <marker date="1566214254485" expanded="true" signature="66:994" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/MtsImportTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1566213855706" expanded="false" signature="6:210" ph="..." />
+            <marker date="1566213855706" expanded="true" signature="233:2952" ph="{...}" />
+            <marker date="1566213855706" expanded="true" signature="278:2950" ph="{...}" />
+            <marker date="1566213855706" expanded="false" signature="293:518" ph="Field" />
+            <marker date="1566213855706" expanded="false" signature="528:873" ph="Constructor" />
+            <marker date="1566213855706" expanded="true" signature="683:854" ph="{...}" />
+            <marker date="1566213855706" expanded="true" signature="1005:1058" ph="{...}" />
+            <marker date="1566213855706" expanded="false" signature="1069:2944" ph="CheckImport" />
+            <marker date="1566213855706" expanded="true" signature="1129:2925" ph="{...}" />
+            <marker date="1566213855706" expanded="true" signature="1314:2548" ph="{...}" />
+            <marker date="1566213855706" expanded="true" signature="1493:2031" ph="{...}" />
+            <marker date="1566213855706" expanded="true" signature="2068:2193" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/MtsTunnelTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <marker date="1566214692120" expanded="false" signature="6:229" ph="..." />
+            <marker date="1566214692120" expanded="true" signature="252:3025" ph="{...}" />
+            <marker date="1566214692120" expanded="true" signature="297:3023" ph="{...}" />
+            <marker date="1566214692120" expanded="false" signature="312:537" ph="Field" />
+            <marker date="1566214692120" expanded="false" signature="547:892" ph="Constructor" />
+            <marker date="1566214692120" expanded="true" signature="702:873" ph="{...}" />
+            <marker date="1566214692120" expanded="true" signature="1024:1079" ph="{...}" />
+            <marker date="1566214692120" expanded="false" signature="1090:3017" ph="CheckMqTunnel" />
+            <marker date="1566214692120" expanded="true" signature="1154:2998" ph="{...}" />
+            <marker date="1566214692120" expanded="true" signature="1345:2630" ph="{...}" />
+            <marker date="1566214692120" expanded="true" signature="1612:2269" ph="{...}" />
+            <marker date="1566214692120" expanded="true" signature="1654:2011" ph="{...}" />
+            <marker date="1566214692120" expanded="true" signature="2052:2251" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fea37d17-df97-42b5-9e55-cf37b4bf3b5f/schema/webbr/table/configuration_variables_zabbix">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="55cf6c6d-0c09-4257-99e4-5afb3eed84d2">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fea37d17-df97-42b5-9e55-cf37b4bf3b5f/schema/webbr/table/configuration_variables_naumen">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="55cf6c6d-0c09-4257-99e4-5afb3eed84d2">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/NaumenLicenseTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1566215106504" expanded="false" signature="6:390" ph="..." />
+            <marker date="1566215106504" expanded="true" signature="413:5785" ph="{...}" />
+            <marker date="1566215106504" expanded="true" signature="462:5783" ph="{...}" />
+            <marker date="1566215106504" expanded="false" signature="477:656" ph="Field" />
+            <marker date="1566215106504" expanded="false" signature="666:961" ph="Constructor" />
+            <marker date="1566215106504" expanded="true" signature="805:942" ph="{...}" />
+            <marker date="1566215106504" expanded="true" signature="1101:1159" ph="{...}" />
+            <marker date="1566215106504" expanded="false" signature="1170:5777" ph="ParseLicensePage" />
+            <marker date="1566215106504" expanded="true" signature="1240:5758" ph="{...}" />
+            <marker date="1566215106504" expanded="true" signature="1805:5748" ph="{...}" />
+            <marker date="1566215106504" expanded="true" signature="1954:2209" ph="{...}" />
+            <marker date="1566215106504" expanded="true" signature="2881:4025" ph="{...}" />
+            <marker date="1566215106504" expanded="true" signature="3566:3741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/NaumenTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1566214855288" expanded="true" signature="6:133" ph="..." />
+            <marker date="1566214855288" expanded="true" signature="156:3800" ph="{...}" />
+            <marker date="1566214855288" expanded="true" signature="198:3798" ph="{...}" />
+            <marker date="1566214855288" expanded="false" signature="213:301" ph="Field" />
+            <marker date="1566214855288" expanded="false" signature="311:440" ph="Constructor" />
+            <marker date="1566214855288" expanded="true" signature="588:641" ph="{...}" />
+            <marker date="1566214855288" expanded="false" signature="652:3792" ph="GetEmployee" />
+            <marker date="1566214855288" expanded="true" signature="712:3773" ph="{...}" />
+            <marker date="1566214855288" expanded="false" signature="735:2862" ph="Query" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TasksModel/NaumenListModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1566215170131" expanded="true" signature="33:163" ph="{...}" />
+            <marker date="1566215170131" expanded="true" signature="68:161" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <marker date="1560845402972" expanded="true" signature="278:543" ph="@..." />
+            <marker date="1560845402972" expanded="true" signature="313:407" ph="{...}" />
+            <marker date="1560845402972" expanded="true" signature="448:543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/ZabbixTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+          <folding>
+            <marker date="1566215435733" expanded="false" signature="6:456" ph="..." />
+            <marker date="1566215435733" expanded="true" signature="521:6070" ph="{...}" />
+            <marker date="1566215435733" expanded="false" signature="536:791" ph="Field" />
+            <marker date="1566215435733" expanded="false" signature="801:1089" ph="Constructor" />
+            <marker date="1566215435733" expanded="true" signature="933:1070" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="1221:1273" ph="{...}" />
+            <marker date="1566215435733" expanded="false" signature="1284:4713" ph="ZabbixData" />
+            <marker date="1566215435733" expanded="true" signature="1342:4694" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="1768:2073" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="1928:2035" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="2257:4684" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="2312:4670" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="2561:3257" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="2721:3153" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="3485:4652" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="4817:4972" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="5003:5165" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="5194:6064" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="5473:5665" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="5701:6054" ph="{...}" />
+            <marker date="1566215435733" expanded="true" signature="5735:5998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TasksModel/ZabbixAuthModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <marker date="1566214979643" expanded="true" signature="33:212" ph="{...}" />
+            <marker date="1566214979643" expanded="true" signature="68:210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TasksModel/NaumenAuthModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+          <folding>
+            <marker date="1566215019348" expanded="true" signature="33:212" ph="{...}" />
+            <marker date="1566215019348" expanded="true" signature="68:210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/TasksModel/HypervisorsModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <marker date="1566215212028" expanded="true" signature="33:419" ph="{...}" />
+            <marker date="1566215212028" expanded="true" signature="69:417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/vSphere/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fea37d17-df97-42b5-9e55-cf37b4bf3b5f/schema/webbr/table/configuration_variables_hypervisors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="55cf6c6d-0c09-4257-99e4-5afb3eed84d2">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/PortmapTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="297" column="8" selection-start-line="297" selection-start-column="8" selection-end-line="297" selection-end-column="8" />
+          <folding>
+            <marker date="1566217742124" expanded="false" signature="6:441" ph="..." />
+            <marker date="1566217742124" expanded="true" signature="464:17681" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="507:17679" ph="{...}" />
+            <marker date="1566217742124" expanded="false" signature="522:703" ph="Fields" />
+            <marker date="1566217742124" expanded="false" signature="713:986" ph="Constructor" />
+            <marker date="1566217742124" expanded="true" signature="835:967" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="1118:1907" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="1441:1814" ph="{...}" />
+            <marker date="1566217742124" expanded="false" signature="1926:7343" ph="Commutator" />
+            <marker date="1566217742124" expanded="true" signature="2019:7324" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="2045:7205" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="2386:7191" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="2845:6768" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="3398:6683" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="3521:6655" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="3558:6424" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="4128:6390" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="5568:6296" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="6478:6625" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="7237:7314" ph="{...}" />
+            <marker date="1566217742124" expanded="false" signature="7353:10965" ph="Dhcp" />
+            <marker date="1566217742124" expanded="true" signature="7493:10946" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="7519:10886" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="8340:8747" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="8487:8727" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="9188:9547" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="10283:10390" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="10477:10835" ph="{...}" />
+            <marker date="1566217742124" expanded="false" signature="10975:13913" ph="Naumen" />
+            <marker date="1566217742124" expanded="true" signature="11144:13894" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="11170:13834" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="12171:13820" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="12636:12969" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="12803:12945" ph="{...}" />
+            <marker date="1566217742124" expanded="true" signature="13057:13224" ph="{...}" />
+            <marker date="1566217742124" expanded="false" signature="13923:15667" ph="Transaction" />
+            <marker date="1566217742124" expanded="true" signature="14042:15648" ph="{...}" />
+            <marker date="1566217742124" expanded="false" signature="15677:17673" ph="Caching" />
+            <marker date="1566217742124" expanded="true" signature="15729:17654" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/dashboard_page.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="148" column="186" selection-start-line="148" selection-start-column="186" selection-end-line="148" selection-end-column="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/UpsTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <marker date="1566215349326" expanded="false" signature="6:356" ph="..." />
+            <marker date="1566215349326" expanded="true" signature="379:5351" ph="{...}" />
+            <marker date="1566215349326" expanded="true" signature="418:5349" ph="{...}" />
+            <marker date="1566215349326" expanded="false" signature="433:612" ph="Field" />
+            <marker date="1566215349326" expanded="false" signature="622:907" ph="Constructor" />
+            <marker date="1566215349326" expanded="true" signature="751:888" ph="{...}" />
+            <marker date="1566215349326" expanded="true" signature="1047:1096" ph="{...}" />
+            <marker date="1566215349326" expanded="false" signature="1107:5343" ph="UpsData" />
+            <marker date="1566215349326" expanded="true" signature="1159:5324" ph="{...}" />
+            <marker date="1566215349326" expanded="true" signature="1484:4623" ph="{...}" />
+            <marker date="1566215349326" expanded="true" signature="1820:2000" ph="{...}" />
+            <marker date="1566215349326" expanded="true" signature="2068:4558" ph="{...}" />
+            <marker date="1566215349326" expanded="true" signature="2523:3776" ph="{...}" />
+            <marker date="1566215349326" expanded="true" signature="2552:3585" ph="{...}" />
+            <marker date="1566215349326" expanded="true" signature="3631:3754" ph="{...}" />
+            <marker date="1566215349326" expanded="true" signature="3872:4538" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1558695486881" expanded="false" signature="6:105" ph="..." />
+            <marker date="1558695486881" expanded="true" signature="122:529" ph="{...}" />
+            <marker date="1558695486881" expanded="true" signature="149:527" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C4C98C51-6D55-46B2-AFFD-4410FDD4C318/3e/66361025/EnvironmentVariablesExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jwt/JwtIssuerOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <marker date="1566213052117" expanded="false" signature="6:81" ph="..." />
+            <marker date="1566213052117" expanded="true" signature="138:2342" ph="{...}" />
+            <marker date="1566213052117" expanded="true" signature="153:303" ph="/// 4.1.1.  &quot;iss&quot; (Issuer) Claim - The &quot;iss&quot; (issuer) claim identifies the principal that issued the JWT. ... " />
+            <marker date="1566213052117" expanded="true" signature="371:534" ph="/// 4.1.2.  &quot;sub&quot; (Subject) Claim - The &quot;sub&quot; (subject) claim identifies the principal that is the subject of the ... " />
+            <marker date="1566213052117" expanded="true" signature="588:752" ph="/// 4.1.3.  &quot;aud&quot; (Audience) Claim - The &quot;aud&quot; (audience) claim identifies the recipients that the JWT is intende ... " />
+            <marker date="1566213052117" expanded="true" signature="835:1051" ph="/// 4.1.4.  &quot;exp&quot; (Expiration Time) Claim - The &quot;exp&quot; (expiration time) claim identifies the expiration time on o ... " />
+            <marker date="1566213052117" expanded="true" signature="1123:1313" ph="/// 4.1.5.  &quot;nbf&quot; (Not Before) Claim - The &quot;nbf&quot; (not before) claim identifies the time before which the JWT MUST ... " />
+            <marker date="1566213052117" expanded="true" signature="1387:1546" ph="/// 4.1.6.  &quot;iat&quot; (Issued At) Claim - The &quot;iat&quot; (issued at) claim identifies the time at which the JWT was issued ... " />
+            <marker date="1566213052117" expanded="true" signature="1619:1733" ph="/// Set the timespan the token will be valid for (default is 120 min) ... " />
+            <marker date="1566213052117" expanded="true" signature="1742:1886" ph="/* public TimeSpan ValidFor { get; set; } = TimeSpan.FromMinutes(120); ... */" />
+            <marker date="1566213052117" expanded="true" signature="1972:2064" ph="/// &quot;jti&quot; (JWT ID) Claim (default ID is a GUID) ... " />
+            <marker date="1566213052117" expanded="true" signature="2174:2269" ph="/// The signing key to use when generating tokens. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/inventory_addon/inventory_table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extensions/WebbrDatabase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+          <folding>
+            <marker date="1566292836909" expanded="false" signature="6:205" ph="..." />
+            <marker date="1566292836909" expanded="true" signature="271:953" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="1002:3962" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="1017:1372" ph="Environments" />
+            <marker date="1566292836909" expanded="false" signature="1391:1812" ph="QueryAsync" />
+            <marker date="1566292836909" expanded="true" signature="1493:1793" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="1591:1783" ph="{...}" />
+            <marker date="1566292836909" expanded="false" signature="1822:2303" ph="ExecuteAsync" />
+            <marker date="1566292836909" expanded="true" signature="1916:2284" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="2014:2274" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="2035:2171" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="2210:2260" ph="{...}" />
+            <marker date="1566292836909" expanded="false" signature="2313:3063" ph="TransactionAsync" />
+            <marker date="1566292836909" expanded="true" signature="2420:3044" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="2518:3034" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="2539:2931" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="2970:3020" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="3074:3500" ph="OracleQueryAsync" />
+            <marker date="1566292836909" expanded="true" signature="3167:3481" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="3267:3471" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="3518:3956" ph="OracleQueryAsyncConnection" />
+            <marker date="1566292836909" expanded="true" signature="3644:3937" ph="{...}" />
+            <marker date="1566292836909" expanded="true" signature="3723:3927" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fea37d17-df97-42b5-9e55-cf37b4bf3b5f/schema/webbr/table/dashboard_main_mts_mgw_agent">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="067addbf-2d11-44a3-a48e-88dadbabdcb8">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/MtsModel/MgwJobsDbModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1566214561599" expanded="true" signature="31:691" ph="{...}" />
+            <marker date="1566214561599" expanded="true" signature="65:689" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/ServerTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="45" column="134" selection-start-line="45" selection-start-column="134" selection-end-line="45" selection-end-column="134" />
+          <folding>
+            <marker date="1566378845251" expanded="false" signature="6:262" ph="..." />
+            <marker date="1566378845251" expanded="true" signature="285:2226" ph="{...}" />
+            <marker date="1566378845251" expanded="true" signature="327:2224" ph="{...}" />
+            <marker date="1566378845251" expanded="false" signature="342:523" ph="Fields" />
+            <marker date="1566378845251" expanded="false" signature="533:805" ph="Constructor" />
+            <marker date="1566378845251" expanded="true" signature="654:786" ph="{...}" />
+            <marker date="1566378845251" expanded="true" signature="945:1953" ph="{...}" />
+            <marker date="1566378845251" expanded="true" signature="1367:1473" ph="{...}" />
+            <marker date="1566378845251" expanded="true" signature="2034:2218" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2ff5c8d2-b4e8-4a7a-8b6f-4bfefbbbf483/console_11.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/MtsMgwJobsTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <marker date="1566380983431" expanded="false" signature="6:273" ph="..." />
+            <marker date="1566380983431" expanded="true" signature="296:3239" ph="{...}" />
+            <marker date="1566380983431" expanded="true" signature="342:3237" ph="{...}" />
+            <marker date="1566380983431" expanded="false" signature="357:582" ph="Field" />
+            <marker date="1566380983431" expanded="false" signature="592:938" ph="Constructor" />
+            <marker date="1566380983431" expanded="true" signature="748:919" ph="{...}" />
+            <marker date="1566380983431" expanded="true" signature="1070:1124" ph="{...}" />
+            <marker date="1566380983431" expanded="false" signature="1135:3231" ph="CheckMgwJobs" />
+            <marker date="1566380983431" expanded="true" signature="1197:3212" ph="{...}" />
+            <marker date="1566380983431" expanded="true" signature="1467:2042" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tasks/MtsMgwAgentTask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <marker date="1566214667430" expanded="true" signature="6:292" ph="..." />
+            <marker date="1566214667430" expanded="true" signature="315:3423" ph="{...}" />
+            <marker date="1566214667430" expanded="true" signature="362:3421" ph="{...}" />
+            <marker date="1566214667430" expanded="false" signature="377:602" ph="Field" />
+            <marker date="1566214667430" expanded="false" signature="612:959" ph="Constructor" />
+            <marker date="1566214667430" expanded="true" signature="769:940" ph="{...}" />
+            <marker date="1566214667430" expanded="true" signature="1091:1146" ph="{...}" />
+            <marker date="1566214667430" expanded="true" signature="1157:3415" ph="CheckMgwAgent" />
+            <marker date="1566214667430" expanded="true" signature="1221:3396" ph="{...}" />
+            <marker date="1566214667430" expanded="true" signature="1494:3154" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fea37d17-df97-42b5-9e55-cf37b4bf3b5f/schema/webbr/table/configuration_variables_mts_mgw_oracle">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="067addbf-2d11-44a3-a48e-88dadbabdcb8">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/853bc109-30d2-4730-9232-67a9f3b56404/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="83" selection-end-column="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fea37d17-df97-42b5-9e55-cf37b4bf3b5f/schema/webbr/table/dashboard_main_mts_mgw_job">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="067addbf-2d11-44a3-a48e-88dadbabdcb8">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hubs/WebbrHub.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1566213042186" expanded="true" signature="6:175" ph="..." />
+            <marker date="1566213042186" expanded="true" signature="283:726" ph="{...}" />
+            <marker date="1566213042186" expanded="false" signature="298:376" ph="Field" />
+            <marker date="1566213042186" expanded="false" signature="386:499" ph="Constructor" />
+            <marker date="1566213042186" expanded="false" signature="510:720" ph="GetValues" />
+            <marker date="1566213042186" expanded="true" signature="575:701" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.10.0/node-typings/node_modules/@types/node/globals.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/ServerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1566557224918" expanded="false" signature="6:275" ph="..." />
+            <marker date="1566557224918" expanded="true" signature="304:1530" ph="{...}" />
+            <marker date="1566557224918" expanded="true" signature="446:1528" ph="{...}" />
+            <marker date="1566557224918" expanded="false" signature="461:595" ph="Field" />
+            <marker date="1566557224918" expanded="false" signature="605:829" ph="Constructor" />
+            <marker date="1566557224918" expanded="true" signature="712:810" ph="{...}" />
+            <marker date="1566557224918" expanded="false" signature="840:1522" ph="GetVirtualServers" />
+            <marker date="1566557224918" expanded="true" signature="962:1503" ph="{...}" />
+            <marker date="1566557224918" expanded="true" signature="1055:1455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/ServerModel/VirtualServerModels.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <marker date="1566557742427" expanded="false" signature="6:51" ph="..." />
+            <marker date="1566557742427" expanded="true" signature="87:1812" ph="{...}" />
+            <marker date="1566557742427" expanded="true" signature="125:1810" ph="{...}" />
+            <marker date="1566557742427" expanded="true" signature="637:938" ph="{...}" />
+            <marker date="1566557742427" expanded="true" signature="663:890" ph="{...}" />
+            <marker date="1566557742427" expanded="true" signature="977:1142" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/servers_page.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="n#style#0;n#b-col#0;n#b-row#0;n#b-col#0;n#b-row#0;n#b-container#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b-col#1;n#b-row#0;n#b-col#0;n#b-row#0;n#b-container#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#template#5;n#b-table#0;n#b-col#0;n#b-row#0;n#b-container#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fea37d17-df97-42b5-9e55-cf37b4bf3b5f/schema/webbr/table/home_index">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="657750ca-041b-45da-847f-042335d2edcc">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientApp/components/portmap_addon/portmap_table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7728">
+          <caret line="484" column="102" selection-start-line="484" selection-start-column="76" selection-end-line="484" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fea37d17-df97-42b5-9e55-cf37b4bf3b5f/schema/webbr/table/dashboard_main_mts_mq_channel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="52c65771-c7f8-412a-beeb-9f2c709246e7">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1566970378979" expanded="false" signature="6:536" ph="..." />
+            <marker date="1566970378979" expanded="true" signature="553:8633" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="580:8631" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="923:7776" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="1354:1586" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="1652:1849" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="1887:3076" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="2039:2499" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="2613:3061" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="2686:3043" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="3141:6192" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="3159:3232" ph="/* Роль: Guest ... */" />
+            <marker date="1566970378979" expanded="true" signature="3931:4017" ph="/* Роль: Basic ... */" />
+            <marker date="1566970378979" expanded="true" signature="4574:4653" ph="/* Роль: OtpOnly ... */" />
+            <marker date="1566970378979" expanded="true" signature="5089:5167" ph="/* Роль: Mc ... */" />
+            <marker date="1566970378979" expanded="true" signature="5537:5619" ph="/* Роль: Rg ... */" />
+            <marker date="1566970378979" expanded="true" signature="7857:8625" ph="{...}" />
+            <marker date="1566970378979" expanded="true" signature="8492:8612" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\asphy\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\asphy\.Rider2019.1\config\Extensions" t="IncludeRecursive" />
+    <e p="C:\Users\asphy\.Rider2019.1\config\javascript\nodejs\11.10.0\core-modules" t="IncludeRecursive" />
+    <e p="C:\Users\asphy\.Rider2019.1\config\javascript\nodejs\11.10.0\node-typings\node_modules\@types" t="IncludeRecursive" />
+    <e p="C:\Users\asphy\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\asphy\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Webbr.-876721559.00" t="ExcludeRecursive" />
+    <e p="C:\Users\asphy\OneDrive\Проекты\cs\To GITHUB\Webbr" t="IncludeRecursive">
+      <e p=".babelrc" t="Include" />
+      <e p=".dockerignore" t="Include" />
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="Bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p="App.vue" t="Include" />
+        <e p="assets" t="Include">
+          <e p="_darklyVariables.scss" t="Include" />
+          <e p="_flatlyVariables.scss" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrapDark.css" t="Include" />
+          <e p="bootstrapLight.css" t="Include" />
+          <e p="bootstrapVue.css" t="Include" />
+        </e>
+        <e p="components" t="Include">
+          <e p="configuration_addon" t="Include">
+            <e p="places_page.vue" t="Include" />
+            <e p="sw_addon" t="Include">
+              <e p="commutator_table.vue" t="Include" />
+            </e>
+            <e p="sw_page.vue" t="Include" />
+            <e p="users_page.vue" t="Include" />
+          </e>
+          <e p="configuration_page.vue" t="Include" />
+          <e p="dashboard_addon" t="Include">
+            <e p="dashboard_grafana.vue" t="Include" />
+            <e p="dashboard_hosts.vue" t="Include" />
+            <e p="dashboard_mts.vue" t="Include" />
+            <e p="dashboard_mts_addon" t="Include">
+              <e p="dashboard_mts_import.vue" t="Include" />
+              <e p="dashboard_mts_mgw.vue" t="Include" />
+              <e p="dashboard_mts_mq.vue" t="Include" />
+            </e>
+            <e p="dashboard_mts_backup.vue" t="Include" />
+            <e p="dashboard_naumen.vue" t="Include" />
+            <e p="dashboard_telephony.vue" t="Include" />
+            <e p="dashboard_ups.vue" t="Include" />
+            <e p="dashboard_zabbix.vue" t="Include" />
+          </e>
+          <e p="dashboard_page.vue" t="Include" />
+          <e p="domain_addon" t="Include">
+            <e p="domain_computers_table.vue" t="Include" />
+            <e p="domain_groups_table.vue" t="Include" />
+            <e p="domain_users_table.vue" t="Include" />
+          </e>
+          <e p="domain_page.vue" t="Include" />
+          <e p="duty_addon" t="Include">
+            <e p="duty_admin_table.vue" t="Include" />
+            <e p="duty_user.vue" t="Include" />
+            <e p="duty_user_table.vue" t="Include" />
+          </e>
+          <e p="duty_page.vue" t="Include" />
+          <e p="error404_page.vue" t="Include" />
+          <e p="home_addon" t="Include">
+            <e p="home_auth.vue" t="Include" />
+            <e p="home_index.vue" t="Include" />
+          </e>
+          <e p="home_page.vue" t="Include" />
+          <e p="inventory_addon" t="Include">
+            <e p="inventory_table.vue" t="Include" />
+          </e>
+          <e p="inventory_page.vue" t="Include" />
+          <e p="navbar.vue" t="Include" />
+          <e p="news_addon" t="Include">
+            <e p="news_body.vue" t="Include" />
+            <e p="news_component.vue" t="Include" />
+            <e p="news_create.vue" t="Include" />
+            <e p="news_edit.vue" t="Include" />
+          </e>
+          <e p="news_page.vue" t="Include" />
+          <e p="portmap_addon" t="Include">
+            <e p="portmap_info.vue" t="Include" />
+            <e p="portmap_table.vue" t="Include" />
+          </e>
+          <e p="portmaps_page.vue" t="Include" />
+          <e p="servers_page.vue" t="Include" />
+        </e>
+        <e p="main.js" t="Include" />
+        <e p="router.js" t="Include" />
+        <e p="store" t="Include">
+          <e p="actions" t="Include">
+            <e p="auth.js" t="Include" />
+            <e p="signalr.js" t="Include" />
+            <e p="user.js" t="Include" />
+          </e>
+          <e p="index.js" t="Include" />
+          <e p="modules" t="Include">
+            <e p="auth.js" t="Include" />
+            <e p="signalr.js" t="Include" />
+            <e p="user.js" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="CommandsController.cs" t="Include" />
+        <e p="ConfigurationController.cs" t="Include" />
+        <e p="DashboardController.cs" t="Include" />
+        <e p="DomainController.cs" t="Include" />
+        <e p="DutyController.cs" t="Include" />
+        <e p="HomeController.cs" t="Include" />
+        <e p="IndexController.cs" t="Include" />
+        <e p="InventoryController.cs" t="Include" />
+        <e p="PortmapController.cs" t="Include" />
+        <e p="ServerController.cs" t="Include" />
+      </e>
+      <e p="Dockerfile" t="Include" />
+      <e p="Extensions" t="Include">
+        <e p="WebbrDatabase.cs" t="Include" />
+        <e p="WebbrLogger.cs" t="Include" />
+        <e p="WebbrSsh.cs" t="Include" />
+      </e>
+      <e p="Hubs" t="Include">
+        <e p="WebbrHub.cs" t="Include" />
+      </e>
+      <e p="Jwt" t="Include">
+        <e p="Helpers" t="Include">
+          <e p="Constants.cs" t="Include" />
+          <e p="Errors.cs" t="Include" />
+          <e p="Tokens.cs" t="Include" />
+        </e>
+        <e p="JwtFactory.cs" t="Include" />
+        <e p="JwtIssuerOptions.cs" t="Include" />
+      </e>
+      <e p="lib" t="Include">
+        <e p="froala-editor-self" t="Include">
+          <e p="bower.json" t="Include" />
+          <e p="composer.json" t="Include" />
+          <e p="css" t="Include">
+            <e p="froala_editor.css" t="Include" />
+            <e p="froala_editor.min.css" t="Include" />
+            <e p="froala_editor.pkgd.css" t="Include" />
+            <e p="froala_editor.pkgd.min.css" t="Include" />
+            <e p="froala_style.css" t="Include" />
+            <e p="froala_style.min.css" t="Include" />
+            <e p="plugins" t="Include">
+              <e p="char_counter.css" t="Include" />
+              <e p="char_counter.min.css" t="Include" />
+              <e p="code_view.css" t="Include" />
+              <e p="code_view.min.css" t="Include" />
+              <e p="colors.css" t="Include" />
+              <e p="colors.min.css" t="Include" />
+              <e p="draggable.css" t="Include" />
+              <e p="draggable.min.css" t="Include" />
+              <e p="emoticons.css" t="Include" />
+              <e p="emoticons.min.css" t="Include" />
+              <e p="file.css" t="Include" />
+              <e p="file.min.css" t="Include" />
+              <e p="fullscreen.css" t="Include" />
+              <e p="fullscreen.min.css" t="Include" />
+              <e p="help.css" t="Include" />
+              <e p="help.min.css" t="Include" />
+              <e p="image.css" t="Include" />
+              <e p="image.min.css" t="Include" />
+              <e p="image_manager.css" t="Include" />
+              <e p="image_manager.min.css" t="Include" />
+              <e p="line_breaker.css" t="Include" />
+              <e p="line_breaker.min.css" t="Include" />
+              <e p="quick_insert.css" t="Include" />
+              <e p="quick_insert.min.css" t="Include" />
+              <e p="special_characters.css" t="Include" />
+              <e p="special_characters.min.css" t="Include" />
+              <e p="table.css" t="Include" />
+              <e p="table.min.css" t="Include" />
+              <e p="video.css" t="Include" />
+              <e p="video.min.css" t="Include" />
+            </e>
+            <e p="themes" t="Include">
+              <e p="dark.css" t="Include" />
+              <e p="dark.min.css" t="Include" />
+              <e p="gray.css" t="Include" />
+              <e p="gray.min.css" t="Include" />
+              <e p="red.css" t="Include" />
+              <e p="red.min.css" t="Include" />
+              <e p="royal.css" t="Include" />
+              <e p="royal.min.css" t="Include" />
+            </e>
+            <e p="third_party" t="Include">
+              <e p="embedly.css" t="Include" />
+              <e p="embedly.min.css" t="Include" />
+              <e p="font_awesome.css" t="Include" />
+              <e p="font_awesome.min.css" t="Include" />
+              <e p="image_tui.css" t="Include" />
+              <e p="image_tui.min.css" t="Include" />
+              <e p="spell_checker.css" t="Include" />
+              <e p="spell_checker.min.css" t="Include" />
+            </e>
+          </e>
+          <e p="editor.jpg" t="Include" />
+          <e p="html" t="Include">
+            <e p="3rd-party" t="Include">
+              <e p="at.js.html" t="Include" />
+              <e p="aviary" t="Include">
+                <e p="index.html" t="Include" />
+              </e>
+              <e p="bootstrap" t="Include">
+                <e p="grid.html" t="Include" />
+                <e p="lists.html" t="Include" />
+                <e p="modal.html" t="Include" />
+              </e>
+              <e p="code-mirror.html" t="Include" />
+              <e p="font-awesome-5-css.html" t="Include" />
+              <e p="font-awesome-5-js.html" t="Include" />
+              <e p="jquery" t="Include">
+                <e p="mobile.html" t="Include" />
+                <e p="ui_modal.html" t="Include" />
+              </e>
+              <e p="require_js" t="Include">
+                <e p="index.html" t="Include" />
+                <e p="js" t="Include">
+                  <e p="app.js" t="Include" />
+                  <e p="lib" t="Include">
+                    <e p="require.js" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="spell-checker" t="Include">
+                <e p="spell-checker.html" t="Include" />
+              </e>
+              <e p="tui" t="Include">
+                <e p="index.html" t="Include" />
+              </e>
+            </e>
+            <e p="api" t="Include">
+              <e p="get_html.html" t="Include" />
+              <e p="init_destroy.html" t="Include" />
+              <e p="insert_html.html" t="Include" />
+              <e p="live_code_preview.html" t="Include" />
+              <e p="live_content_preview.html" t="Include" />
+              <e p="selection.html" t="Include" />
+            </e>
+            <e p="buttons" t="Include">
+              <e p="custom_buttons.html" t="Include" />
+              <e p="custom_dropdown.html" t="Include" />
+              <e p="external_button.html" t="Include" />
+              <e p="subscript_superscript.html" t="Include" />
+            </e>
+            <e p="events" t="Include">
+              <e p="blur_focus.html" t="Include" />
+              <e p="content_changed.html" t="Include" />
+              <e p="drop.html" t="Include" />
+              <e p="image_removed.html" t="Include" />
+              <e p="initialized_destroy.html" t="Include" />
+            </e>
+            <e p="file_s3_upload.php" t="Include" />
+            <e p="image" t="Include">
+              <e p="custom_button.html" t="Include" />
+              <e p="default_width.html" t="Include" />
+              <e p="image_styles.html" t="Include" />
+              <e p="insert_base64.html" t="Include" />
+            </e>
+            <e p="image_s3_upload.php" t="Include" />
+            <e p="init_inside_iframe" t="Include">
+              <e p="basic.html" t="Include" />
+              <e p="content.html" t="Include" />
+              <e p="inline.html" t="Include" />
+            </e>
+            <e p="init_on_click" t="Include">
+              <e p="basic.html" t="Include" />
+              <e p="inline.html" t="Include" />
+              <e p="two_editors.html" t="Include" />
+            </e>
+            <e p="initialization" t="Include">
+              <e p="edit_in_popup.html" t="Include" />
+              <e p="init_on_button.html" t="Include" />
+              <e p="init_on_click.html" t="Include" />
+              <e p="init_on_h1.html" t="Include" />
+              <e p="init_on_image.html" t="Include" />
+              <e p="init_on_link.html" t="Include" />
+              <e p="initialized_event.html" t="Include" />
+            </e>
+            <e p="international" t="Include">
+              <e p="direction_rtl.html" t="Include" />
+              <e p="language.html" t="Include" />
+              <e p="rtl_ltr_buttons.html" t="Include" />
+            </e>
+            <e p="link" t="Include">
+              <e p="custom_validation.html" t="Include" />
+              <e p="link_styles.html" t="Include" />
+              <e p="predefined_links.html" t="Include" />
+            </e>
+            <e p="misc" t="Include">
+              <e p="scrollable_container.html" t="Include" />
+              <e p="scrollable_container_inline.html" t="Include" />
+            </e>
+            <e p="paragraph_modes" t="Include">
+              <e p="enter_br.html" t="Include" />
+              <e p="enter_div.html" t="Include" />
+              <e p="enter_p.html" t="Include" />
+            </e>
+            <e p="paste" t="Include">
+              <e p="attrs.html" t="Include" />
+              <e p="plain.html" t="Include" />
+              <e p="tags.html" t="Include" />
+            </e>
+            <e p="plugins" t="Include">
+              <e p="char_counter.html" t="Include" />
+              <e p="full_screen.html" t="Include" />
+              <e p="line_breaker.html" t="Include" />
+              <e p="quick_insert.html" t="Include" />
+            </e>
+            <e p="popular" t="Include">
+              <e p="disable_edit.html" t="Include" />
+              <e p="disable_paragraphs.html" t="Include" />
+              <e p="full.html" t="Include" />
+              <e p="full_page.html" t="Include" />
+              <e p="iframe.html" t="Include" />
+              <e p="init_on_click.html" t="Include" />
+              <e p="textarea.html" t="Include" />
+              <e p="toolbar_buttons.html" t="Include" />
+              <e p="toolbar_inline.html" t="Include" />
+              <e p="two_instances.html" t="Include" />
+              <e p="z_index.html" t="Include" />
+            </e>
+            <e p="popups" t="Include">
+              <e p="colors.html" t="Include" />
+              <e p="custom.html" t="Include" />
+              <e p="emoticons.html" t="Include" />
+            </e>
+            <e p="styling" t="Include">
+              <e p="adjustable_height.html" t="Include" />
+              <e p="font_family.html" t="Include" />
+              <e p="height.html" t="Include" />
+              <e p="inline.html" t="Include" />
+              <e p="paragraph.html" t="Include" />
+              <e p="placeholder.html" t="Include" />
+              <e p="width.html" t="Include" />
+            </e>
+            <e p="table" t="Include">
+              <e p="cell_style.html" t="Include" />
+              <e p="insert_helper.html" t="Include" />
+              <e p="nested.html" t="Include" />
+              <e p="resize.html" t="Include" />
+              <e p="style.html" t="Include" />
+            </e>
+            <e p="tests" t="Include">
+              <e p="bottom_offset_scrollable_container.html" t="Include" />
+              <e p="bottom_scrollable_container.html" t="Include" />
+              <e p="core.html" t="Include" />
+              <e p="full_br.html" t="Include" />
+              <e p="full_page_bottom.html" t="Include" />
+              <e p="image_manager.html" t="Include" />
+              <e p="init_on_click" t="Include">
+                <e p="full_page.html" t="Include" />
+              </e>
+              <e p="max_height.html" t="Include" />
+              <e p="toolbar_inline_two.html" t="Include" />
+              <e p="top_offset_scrollable_container.html" t="Include" />
+              <e p="top_scrollable_container.html" t="Include" />
+            </e>
+            <e p="themes" t="Include">
+              <e p="dark.html" t="Include" />
+              <e p="gray.html" t="Include" />
+              <e p="red.html" t="Include" />
+              <e p="royal.html" t="Include" />
+            </e>
+            <e p="toolbar" t="Include">
+              <e p="bottom.html" t="Include" />
+              <e p="bottom_offset.html" t="Include" />
+              <e p="buttons.html" t="Include" />
+              <e p="external.html" t="Include" />
+              <e p="external_inline.html" t="Include" />
+              <e p="inline.html" t="Include" />
+              <e p="inline_selection.html" t="Include" />
+              <e p="offset.html" t="Include" />
+              <e p="show_selection.html" t="Include" />
+              <e p="sticky.html" t="Include" />
+            </e>
+            <e p="typing" t="Include">
+              <e p="keep_format.html" t="Include" />
+              <e p="shortcuts.html" t="Include" />
+              <e p="tab.html" t="Include" />
+            </e>
+          </e>
+          <e p="img" t="Include">
+            <e p="photo1.jpg" t="Include" />
+            <e p="photo1.png" t="Include" />
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="js" t="Include">
+            <e p="froala_editor.min.js" t="Include" />
+            <e p="froala_editor.pkgd.min.js" t="Include" />
+            <e p="languages" t="Include">
+              <e p="ar.js" t="Include" />
+              <e p="bs.js" t="Include" />
+              <e p="cs.js" t="Include" />
+              <e p="da.js" t="Include" />
+              <e p="de.js" t="Include" />
+              <e p="el.js" t="Include" />
+              <e p="en_ca.js" t="Include" />
+              <e p="en_gb.js" t="Include" />
+              <e p="es.js" t="Include" />
+              <e p="et.js" t="Include" />
+              <e p="fa.js" t="Include" />
+              <e p="fi.js" t="Include" />
+              <e p="fr.js" t="Include" />
+              <e p="he.js" t="Include" />
+              <e p="hr.js" t="Include" />
+              <e p="hu.js" t="Include" />
+              <e p="id.js" t="Include" />
+              <e p="it.js" t="Include" />
+              <e p="ja.js" t="Include" />
+              <e p="ko.js" t="Include" />
+              <e p="ku.js" t="Include" />
+              <e p="me.js" t="Include" />
+              <e p="nb.js" t="Include" />
+              <e p="nl.js" t="Include" />
+              <e p="pl.js" t="Include" />
+              <e p="pt_br.js" t="Include" />
+              <e p="pt_pt.js" t="Include" />
+              <e p="ro.js" t="Include" />
+              <e p="ru.js" t="Include" />
+              <e p="sk.js" t="Include" />
+              <e p="sr.js" t="Include" />
+              <e p="sv.js" t="Include" />
+              <e p="th.js" t="Include" />
+              <e p="tr.js" t="Include" />
+              <e p="uk.js" t="Include" />
+              <e p="vi.js" t="Include" />
+              <e p="zh_cn.js" t="Include" />
+              <e p="zh_tw.js" t="Include" />
+            </e>
+            <e p="plugins" t="Include">
+              <e p="align.min.js" t="Include" />
+              <e p="char_counter.min.js" t="Include" />
+              <e p="code_beautifier.min.js" t="Include" />
+              <e p="code_view.min.js" t="Include" />
+              <e p="colors.min.js" t="Include" />
+              <e p="draggable.min.js" t="Include" />
+              <e p="emoticons.min.js" t="Include" />
+              <e p="entities.min.js" t="Include" />
+              <e p="file.min.js" t="Include" />
+              <e p="font_family.min.js" t="Include" />
+              <e p="font_size.min.js" t="Include" />
+              <e p="forms.min.js" t="Include" />
+              <e p="fullscreen.min.js" t="Include" />
+              <e p="help.min.js" t="Include" />
+              <e p="image.min.js" t="Include" />
+              <e p="image_manager.min.js" t="Include" />
+              <e p="inline_class.min.js" t="Include" />
+              <e p="inline_style.min.js" t="Include" />
+              <e p="line_breaker.min.js" t="Include" />
+              <e p="line_height.min.js" t="Include" />
+              <e p="link.min.js" t="Include" />
+              <e p="lists.min.js" t="Include" />
+              <e p="paragraph_format.min.js" t="Include" />
+              <e p="paragraph_style.min.js" t="Include" />
+              <e p="print.min.js" t="Include" />
+              <e p="quick_insert.min.js" t="Include" />
+              <e p="quote.min.js" t="Include" />
+              <e p="save.min.js" t="Include" />
+              <e p="special_characters.min.js" t="Include" />
+              <e p="table.min.js" t="Include" />
+              <e p="url.min.js" t="Include" />
+              <e p="video.min.js" t="Include" />
+              <e p="word_paste.min.js" t="Include" />
+            </e>
+            <e p="third_party" t="Include">
+              <e p="embedly.min.js" t="Include" />
+              <e p="font_awesome.min.js" t="Include" />
+              <e p="image_aviary.min.js" t="Include" />
+              <e p="image_tui.min.js" t="Include" />
+              <e p="spell_checker.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="License.txt" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="README.md" t="Include" />
+        </e>
+        <e p="mq" t="Include">
+          <e p="amqmdnetstd.dll" t="Include" />
+        </e>
+      </e>
+      <e p="Models" t="Include">
+        <e p="ConfigurationModel" t="Include">
+          <e p="ConfigurationCommutatorModel.cs" t="Include" />
+          <e p="ConfigurationDashboardServerModel.cs" t="Include" />
+          <e p="ConfigurationPersonalRoles.cs" t="Include" />
+          <e p="ConfigurationPlaceModel.cs" t="Include" />
+        </e>
+        <e p="DashboardModel" t="Include">
+          <e p="GrafanaModel.cs" t="Include" />
+          <e p="GrafanaSectionModel.cs" t="Include" />
+        </e>
+        <e p="DomainModels" t="Include">
+          <e p="DomainComputerModel.cs" t="Include" />
+          <e p="DomainGroupModel.cs" t="Include" />
+          <e p="DomainUserAuthModel.cs" t="Include" />
+          <e p="DomainUserModel.cs" t="Include" />
+        </e>
+        <e p="DutyModel" t="Include">
+          <e p="DutyModel.cs" t="Include" />
+        </e>
+        <e p="IndexModel" t="Include">
+          <e p="IndexLinkModel.cs" t="Include" />
+          <e p="IndexSectionModel.cs" t="Include" />
+          <e p="NewsModel.cs" t="Include" />
+        </e>
+        <e p="InventoryModel.cs" t="Include" />
+        <e p="MtsModel" t="Include">
+          <e p="MgwAgentDbModel.cs" t="Include" />
+          <e p="MgwJobsDbModel.cs" t="Include" />
+          <e p="MqChannelModel.cs" t="Include" />
+          <e p="MqMsgModel.cs" t="Include" />
+          <e p="MqQueueModel.cs" t="Include" />
+        </e>
+        <e p="NaumenEmployeeDbModel.cs" t="Include" />
+        <e p="NaumenLicenseParseModel.cs" t="Include" />
+        <e p="PersonalModel" t="Include">
+          <e p="MainPersonalModel.cs" t="Include" />
+        </e>
+        <e p="PlacesModel.cs" t="Include" />
+        <e p="PortmapModel" t="Include">
+          <e p="CommutatorModel.cs" t="Include" />
+          <e p="DHCPModel.cs" t="Include" />
+          <e p="MainPortmapModel.cs" t="Include" />
+        </e>
+        <e p="ServerModel" t="Include">
+          <e p="VirtualServerModels.cs" t="Include" />
+        </e>
+        <e p="TasksModel" t="Include">
+          <e p="GrafanaNaumenHosts.cs" t="Include" />
+          <e p="GrafanaTaskDBModel.cs" t="Include" />
+          <e p="HypervisorsModel.cs" t="Include" />
+          <e p="NaumenAuthModel.cs" t="Include" />
+          <e p="NaumenListModel.cs" t="Include" />
+          <e p="TelephonyTaskDBModel.cs" t="Include" />
+          <e p="UpsTaskDBModel.cs" t="Include" />
+          <e p="ZabbixAuthModel.cs" t="Include" />
+          <e p="ZabbixTriggerTaskDBModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="node_modules\@aspnet\signalr" t="IncludeRecursive" />
+      <e p="node_modules\@babel\runtime" t="IncludeRecursive" />
+      <e p="node_modules\@fortawesome\fontawesome-svg-core" t="IncludeRecursive" />
+      <e p="node_modules\@fortawesome\free-brands-svg-icons" t="IncludeRecursive" />
+      <e p="node_modules\@fortawesome\free-regular-svg-icons" t="IncludeRecursive" />
+      <e p="node_modules\@fortawesome\free-solid-svg-icons" t="IncludeRecursive" />
+      <e p="node_modules\@fortawesome\vue-fontawesome" t="IncludeRecursive" />
+      <e p="node_modules\@types" t="IncludeRecursive" />
+      <e p="node_modules\aspnet-webpack" t="IncludeRecursive" />
+      <e p="node_modules\axios" t="IncludeRecursive" />
+      <e p="node_modules\babel-core" t="IncludeRecursive" />
+      <e p="node_modules\babel-loader" t="IncludeRecursive" />
+      <e p="node_modules\babel-plugin-transform-async-to-generator" t="IncludeRecursive" />
+      <e p="node_modules\babel-plugin-transform-object-rest-spread" t="IncludeRecursive" />
+      <e p="node_modules\babel-plugin-transform-runtime" t="IncludeRecursive" />
+      <e p="node_modules\babel-preset-env" t="IncludeRecursive" />
+      <e p="node_modules\babel-preset-stage-2" t="IncludeRecursive" />
+      <e p="node_modules\babel-register" t="IncludeRecursive" />
+      <e p="node_modules\bootstrap" t="IncludeRecursive" />
+      <e p="node_modules\bootstrap-vue" t="IncludeRecursive" />
+      <e p="node_modules\core-js" t="IncludeRecursive" />
+      <e p="node_modules\css-loader" t="IncludeRecursive" />
+      <e p="node_modules\cssnano" t="IncludeRecursive" />
+      <e p="node_modules\event-source-polyfill" t="IncludeRecursive" />
+      <e p="node_modules\file-loader" t="IncludeRecursive" />
+      <e p="node_modules\font-awesome" t="IncludeRecursive" />
+      <e p="node_modules\html-webpack-plugin" t="IncludeRecursive" />
+      <e p="node_modules\jquery" t="IncludeRecursive" />
+      <e p="node_modules\jwt-decode" t="IncludeRecursive" />
+      <e p="node_modules\less" t="IncludeRecursive" />
+      <e p="node_modules\luxon" t="IncludeRecursive" />
+      <e p="node_modules\mini-css-extract-plugin" t="IncludeRecursive" />
+      <e p="node_modules\node-sass" t="IncludeRecursive" />
+      <e p="node_modules\sass-loader" t="IncludeRecursive" />
+      <e p="node_modules\style-loader" t="IncludeRecursive" />
+      <e p="node_modules\url-loader" t="IncludeRecursive" />
+      <e p="node_modules\vue" t="IncludeRecursive" />
+      <e p="node_modules\vue-cookies" t="IncludeRecursive" />
+      <e p="node_modules\vue-froala-wysiwyg" t="IncludeRecursive" />
+      <e p="node_modules\vue-loader" t="IncludeRecursive" />
+      <e p="node_modules\vue-router" t="IncludeRecursive" />
+      <e p="node_modules\vue-template-compiler" t="IncludeRecursive" />
+      <e p="node_modules\vuex" t="IncludeRecursive" />
+      <e p="node_modules\vuex-router-sync" t="IncludeRecursive" />
+      <e p="node_modules\webpack" t="IncludeRecursive" />
+      <e p="node_modules\webpack-cli" t="IncludeRecursive" />
+      <e p="node_modules\webpack-dev-middleware" t="IncludeRecursive" />
+      <e p="node_modules\webpack-hot-middleware" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="Webbr.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="package-lock.json" t="Include" />
+      <e p="package.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Scripts" t="Include">
+        <e p="vSphere" t="Include">
+          <e p="script.py" t="Include" />
+          <e p="tools" t="Include">
+            <e p="__init__.py" t="Include" />
+            <e p="__pycache__" t="Include">
+              <e p="__init__.cpython-36.pyc" t="Include" />
+              <e p="cli.cpython-36.pyc" t="Include" />
+            </e>
+            <e p="alarm.py" t="Include" />
+            <e p="cli.py" t="Include" />
+            <e p="cluster.py" t="Include" />
+            <e p="datacenter.py" t="Include" />
+            <e p="disk.py" t="Include" />
+            <e p="interactive_wrapper.py" t="Include" />
+            <e p="pbmhelper.py" t="Include" />
+            <e p="pchelper.py" t="Include" />
+            <e p="README.md" t="Include" />
+            <e p="serviceutil.py" t="Include" />
+            <e p="tasks.py" t="Include" />
+            <e p="vm.py" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="Tasks" t="Include">
+        <e p="DomainTask.cs" t="Include" />
+        <e p="GrafanaTask.cs" t="Include" />
+        <e p="MtsChannelTask.cs" t="Include" />
+        <e p="MtsImportTask.cs" t="Include" />
+        <e p="MtsMgwAgentTask.cs" t="Include" />
+        <e p="MtsMgwJobsTask.cs" t="Include" />
+        <e p="MtsTunnelTask.cs" t="Include" />
+        <e p="NaumenLicenseTask.cs" t="Include" />
+        <e p="NaumenTask.cs" t="Include" />
+        <e p="PortmapTask.cs" t="Include" />
+        <e p="ServerTask.cs" t="Include" />
+        <e p="UpsTask.cs" t="Include" />
+        <e p="ZabbixTask.cs" t="Include" />
+      </e>
+      <e p="tools" t="Include">
+        <e p="handlers.reg" t="Include" />
+        <e p="remote" t="Include">
+          <e p="psexec.bat" t="Include" />
+          <e p="psexec.exe" t="Include" />
+          <e p="psshutdown.exe" t="Include" />
+          <e p="pssr.bat" t="Include" />
+          <e p="psss.bat" t="Include" />
+        </e>
+        <e p="share" t="Include">
+          <e p="claunch.bat" t="Include" />
+          <e p="dlaunch.bat" t="Include" />
+        </e>
+        <e p="ssh" t="Include">
+          <e p="putty.exe" t="Include" />
+          <e p="ssh.bat" t="Include" />
+          <e p="sshs.bat" t="Include" />
+        </e>
+        <e p="vnc" t="Include">
+          <e p="vnc.bat" t="Include" />
+          <e p="vnc.exe" t="Include" />
+        </e>
+        <e p="xming" t="Include">
+          <e p="libfreetype-6.dll" t="Include" />
+          <e p="locale" t="Include">
+            <e p="armscii-8" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="C" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="compose.dir" t="Include" />
+            <e p="el_GR.UTF-8" t="Include">
+              <e p="Compose" t="Include" />
+            </e>
+            <e p="en_US.UTF-8" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="georgian-academy" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="georgian-ps" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="ibm-cp1133" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iscii-dev" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="isiri-3342" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-1" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-10" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-11" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-13" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-14" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-15" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-2" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-3" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-4" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-5" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-6" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-7" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-8" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-9" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="iso8859-9e" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="ja" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="ja.JIS" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="ja.S90" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="ja.SJIS" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="ja.U90" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="ja_JP.UTF-8" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="ko" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="ko_KR.UTF-8" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="koi8-c" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="koi8-r" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="koi8-u" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="locale.alias" t="Include" />
+            <e p="locale.dir" t="Include" />
+            <e p="microsoft-cp1251" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="microsoft-cp1255" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="microsoft-cp1256" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="mulelao-1" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="nokhchi-1" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="pt_BR.UTF-8" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="tatar-cyr" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="th_TH" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="th_TH.UTF-8" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="tscii-0" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="vi_VN.tcvn" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="vi_VN.viscii" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_CN" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_CN.gb18030" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_CN.gbk" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_CN.UTF-8" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_HK.big5" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_HK.big5hkscs" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_HK.UTF-8" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_TW" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_TW.big5" t="Include">
+              <e p="Compose" t="Include" />
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+            <e p="zh_TW.UTF-8" t="Include">
+              <e p="XLC_LOCALE" t="Include" />
+            </e>
+          </e>
+          <e p="plink.exe" t="Include" />
+          <e p="pthreadGC2.dll" t="Include" />
+          <e p="start.bat" t="Include" />
+          <e p="xming.exe" t="Include" />
+        </e>
+      </e>
+      <e p="tsconfig.json" t="Include" />
+      <e p="ViewModels" t="Include">
+        <e p="CommandsViewModel" t="Include">
+          <e p="CmdCommandViewModel.cs" t="Include" />
+          <e p="ExplorerCCommandViewModel.cs" t="Include" />
+          <e p="ExplorerDCommandViewModel.cs" t="Include" />
+          <e p="MessageCommandViewModel.cs" t="Include" />
+          <e p="PulseCommandViewModel.cs" t="Include" />
+          <e p="PwsCommandViewModel.cs" t="Include" />
+          <e p="RdpCommandViewModel.cs" t="Include" />
+          <e p="RebootLinuxCommandViewModel.cs" t="Include" />
+          <e p="RebootWindowsCommandViewModel.cs" t="Include" />
+          <e p="RseCommandViewModel.cs" t="Include" />
+          <e p="ShutdownLinuxCommandViewModel.cs" t="Include" />
+          <e p="ShutdownWindowsCommandViewModel.cs" t="Include" />
+          <e p="SshCommandViewModel.cs" t="Include" />
+          <e p="VncCommandViewModel.cs" t="Include" />
+          <e p="VncVOCommandViewModel.cs" t="Include" />
+        </e>
+        <e p="ConfigurationViewModel" t="Include">
+          <e p="ConfigurationCommutatorCreate.cs" t="Include" />
+          <e p="ConfigurationCommutatorDelete.cs" t="Include" />
+          <e p="ConfigurationCommutatorSwitchState.cs" t="Include" />
+          <e p="ConfigurationCommutatorUpdate.cs" t="Include" />
+          <e p="ConfigurationDashboardServersCreate.cs" t="Include" />
+          <e p="ConfigurationUsersBanned.cs" t="Include" />
+          <e p="ConfigurationUsersDelete.cs" t="Include" />
+          <e p="ConfigurationUsersRole.cs" t="Include" />
+          <e p="PlacesViewModel" t="Include">
+            <e p="CreatePlacesViewModel.cs" t="Include" />
+            <e p="DeletePlacesViewModel.cs" t="Include" />
+            <e p="SwitchPlacesViewModel.cs" t="Include" />
+            <e p="UpdatePlacesViewModel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="CredentialsViewModel.cs" t="Include" />
+        <e p="DomainViewModel" t="Include">
+          <e p="ChangeStateDomainUserViewModel.cs" t="Include" />
+          <e p="CheckDomainUserExistViewModel.cs" t="Include" />
+          <e p="CreateDomainUserViewModel.cs" t="Include" />
+          <e p="GetDomainComputerLocalAdminPwd.cs" t="Include" />
+          <e p="ResetPasswordDomainUserViewModel.cs" t="Include" />
+        </e>
+        <e p="DutyViewModel" t="Include">
+          <e p="CreateDutyViewModel.cs" t="Include" />
+          <e p="DeleteDutyViewModel.cs" t="Include" />
+          <e p="UpdateDutyViewModel.cs" t="Include" />
+        </e>
+        <e p="IndexViewModel" t="Include">
+          <e p="CreateNewsViewModel.cs" t="Include" />
+          <e p="DeleteNewsViewModel.cs" t="Include" />
+          <e p="IndexLinkCreateViewModel.cs" t="Include" />
+          <e p="IndexLinkDeleteViewModel.cs" t="Include" />
+          <e p="IndexLinkUpdateViewModel.cs" t="Include" />
+          <e p="IndexSectionCreateViewModel.cs" t="Include" />
+          <e p="IndexSectionDeleteViewModel.cs" t="Include" />
+          <e p="IndexSectionUpdateViewModel.cs" t="Include" />
+          <e p="UpdateNewsViewModel.cs" t="Include" />
+        </e>
+        <e p="PortmapViewModel" t="Include">
+          <e p="DeletePortmapViewModel.cs" t="Include" />
+          <e p="UpdatePortmapViewModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Views" t="Include">
+        <e p="Home" t="Include">
+          <e p="Index.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="Webbr.csproj" t="IncludeRecursive" />
+      <e p="Webbr.sln" t="IncludeFlat" />
+      <e p="webpack.config.js" t="Include" />
+      <e p="wwwroot" t="Include">
+        <e p="dist" t="Include">
+          <e p="0.js" t="Include" />
+          <e p="1.js" t="Include" />
+          <e p="2.js" t="Include" />
+          <e p="3.js" t="Include" />
+          <e p="4.js" t="Include" />
+          <e p="5.js" t="Include" />
+          <e p="674f50d287a8c48dc19ba404d20fe713.eot" t="Include" />
+          <e p="912ec66d7572ff821749319396470bde.svg" t="Include" />
+          <e p="af7ae505a9eed503f8b8e6982036873e.woff2" t="Include" />
+          <e p="b06871f281fee6b241d60582ae9369b9.ttf" t="Include" />
+          <e p="bootstrapDark.css" t="Include" />
+          <e p="bootstrapLight.css" t="Include" />
+          <e p="bootstrapVue.css" t="Include" />
+          <e p="fee66e712a8a08eef5805a46892932ad.woff" t="Include" />
+          <e p="main.css" t="Include" />
+          <e p="main.js" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="files" t="Include">
+          <e p="utils.7z" t="Include" />
+          <e p="webbrUtils.bat" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

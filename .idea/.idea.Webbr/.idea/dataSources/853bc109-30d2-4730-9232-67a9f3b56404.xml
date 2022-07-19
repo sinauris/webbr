@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ORA5@37.221.186.72">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.14">
+    <root id="1">
+      <ServerVersion>12.1.0.2</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="XDB">
+      <ObjectId>50</ObjectId>
+      <CreatedTimestamp>2016-11-04.19:42:26</CreatedTimestamp>
+      <ModifiedTimestamp>2016-11-04.19:44:13</ModifiedTimestamp>
+      <IntrospectionTimestamp>2018-12-21.19:21:42</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="ANONYMOUS">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="MGWAGENT">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="COMMON">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="NC_CORE">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="MTS_TM_CARD">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="NAUMEN63_REP_NB">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="MTS_BANK_OUT_REP_NB">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="MTS_SATELLITE_TV">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="MGWADMIN">
+      <ObjectId>74</ObjectId>
+      <CreatedTimestamp>2016-11-21.18:42:22</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-01.04:01:22</ModifiedTimestamp>
+      <IntrospectionTimestamp>2018-12-21.19:21:43</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="16" parent="1" name="AUDSYS">
+      <ObjectId>7</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="SYSTEM">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ORACLE_OCM">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="DBSNMP">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="APPQOSSYS">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="GSMCATUSER">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="WMSYS">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MTS_BANK_OUT">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="STRMADMIN">
+      <ObjectId>69</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="MQ_ADAPTER">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="I_MALCEV">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="QUEST">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="ZABBIX_ADAPTER">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="QUALITY_CONTROL_2">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="MTSBANK_IN">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="SVMANAGER">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="STREAMADMIN_NEW">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="BASEPREP">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="NC_CORE_REP">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="MTS_BANK_MVKD">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="TEST_REP">
+      <ObjectId>104</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="MTS_BANK_MVKD_REP_NB">
+      <ObjectId>105</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="MTS_TM_CARD_REP_NB">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="DB_SERVICE">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="WFM">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <table id="47" parent="15" name="MSG_LOG">
+      <ObjectId>60632</ObjectId>
+      <CreatedTimestamp>2016-11-30.03:23:49</CreatedTimestamp>
+      <ModifiedTimestamp>2016-11-30.03:23:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <routine id="48" parent="15" name="FNC_AQ_CLOB2BASIC">
+      <ObjectId>32697</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <SourceTextLength>571</SourceTextLength>
+      <DependsOnIds>21077,21078,21079,21081,32604</DependsOnIds>
+      <CreatedTimestamp>2016-11-21.18:43:24</CreatedTimestamp>
+      <ModifiedTimestamp>2016-11-30.03:30:16</ModifiedTimestamp>
+    </routine>
+    <routine id="49" parent="15" name="FNC_BASIC2AQ_CLOB">
+      <ObjectId>32696</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <SourceTextLength>562</SourceTextLength>
+      <DependsOnIds>21079,21081,32604</DependsOnIds>
+      <CreatedTimestamp>2016-11-21.18:42:22</CreatedTimestamp>
+      <ModifiedTimestamp>2016-12-01.04:01:22</ModifiedTimestamp>
+    </routine>
+    <column id="50" parent="47" name="MSG_TIME">
+      <Position>1</Position>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+    </column>
+    <column id="51" parent="47" name="MSG">
+      <Position>2</Position>
+      <DataType>SYS.MGW_BASIC_MSG_T()|0cs</DataType>
+    </column>
+    <argument id="52" parent="48">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>SYS.MGW_BASIC_MSG_T()|0cs</DataType>
+    </argument>
+    <argument id="53" parent="48" name="AQCLOB">
+      <Position>1</Position>
+      <DataType>MQ_ADAPTER.AQ_CLOB()|0cs</DataType>
+    </argument>
+    <argument id="54" parent="49">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>MQ_ADAPTER.AQ_CLOB()|0cs</DataType>
+    </argument>
+    <argument id="55" parent="49" name="BASIC">
+      <Position>1</Position>
+      <DataType>SYS.MGW_BASIC_MSG_T()|0cs</DataType>
+    </argument>
+  </database-model>
+</dataSource>

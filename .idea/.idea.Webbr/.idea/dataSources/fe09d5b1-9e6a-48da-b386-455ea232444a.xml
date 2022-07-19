@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="PMS@10.254.12.65">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.14">
+    <root id="1">
+      <ServerVersion>10.0</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="asterisk">
+      <ObjectId>16400</ObjectId>
+      <IntrospectionStateNumber>115</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12994</ObjectId>
+      <Comment>default administrative connection database</Comment>
+    </database>
+    <role id="4" parent="1" name="nc">
+      <ObjectId>16421</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="5" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="6" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="7" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="8" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="9" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="10" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="11" parent="2" name="information_schema">
+      <ObjectId>12703</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="nc">
+      <ObjectId>16433</ObjectId>
+      <IntrospectionTimestamp>2018-08-14.15:23:14.708</IntrospectionTimestamp>
+      <IntrospectionStateNumber>50265</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="13" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+    </schema>
+    <schema id="14" parent="2" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+    </schema>
+    <schema id="16" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+    </schema>
+    <access-method id="18" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="19" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="20" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="21" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="22" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="23" parent="2" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <sequence id="24" parent="12" name="areas_id_seq">
+      <ObjectId>17494</ObjectId>
+      <StateNumber>23966</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="25" parent="12" name="auto_id_roles">
+      <ObjectId>17409</ObjectId>
+      <StateNumber>20182</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="26" parent="12" name="auto_id_roles_member">
+      <ObjectId>17430</ObjectId>
+      <StateNumber>20398</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="27" parent="12" name="auto_id_roles_members">
+      <ObjectId>17421</ObjectId>
+      <StateNumber>20218</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="28" parent="12" name="books_sequence">
+      <ObjectId>17700</ObjectId>
+      <StateNumber>46899</StateNumber>
+      <SequenceIdentity>1+2</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="29" parent="12" name="cdr_cdr_pkey_seq">
+      <ObjectId>16670</ObjectId>
+      <StateNumber>634</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="30" parent="12" name="extensions_id_seq">
+      <ObjectId>17345</ObjectId>
+      <StateNumber>19465</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="31" parent="12" name="phonebook_id_seq">
+      <ObjectId>17451</ObjectId>
+      <StateNumber>21390</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="32" parent="12" name="project_uuid">
+      <ObjectId>17705</ObjectId>
+      <StateNumber>46902</StateNumber>
+      <SequenceIdentity>1+2</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="33" parent="12" name="queue_log_id_seq">
+      <ObjectId>16808</ObjectId>
+      <StateNumber>654</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="34" parent="12" name="route_id">
+      <ObjectId>17617</ObjectId>
+      <StateNumber>26234</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="35" parent="12" name="routing_table_id">
+      <ObjectId>17604</ObjectId>
+      <StateNumber>26214</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="36" parent="12" name="sip_id_seq">
+      <ObjectId>16700</ObjectId>
+      <StateNumber>637</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <table id="37" parent="12" name="areas">
+      <ObjectId>17484</ObjectId>
+      <StateNumber>23966</StateNumber>
+    </table>
+    <table id="38" parent="12" name="auth_assignment">
+      <ObjectId>17563</ObjectId>
+      <StateNumber>24820</StateNumber>
+    </table>
+    <table id="39" parent="12" name="auth_item">
+      <ObjectId>17534</ObjectId>
+      <StateNumber>24820</StateNumber>
+    </table>
+    <table id="40" parent="12" name="auth_item_child">
+      <ObjectId>17548</ObjectId>
+      <StateNumber>24819</StateNumber>
+    </table>
+    <table id="41" parent="12" name="auth_rule">
+      <ObjectId>17526</ObjectId>
+      <StateNumber>24817</StateNumber>
+    </table>
+    <table id="42" parent="12" name="cdr">
+      <ObjectId>16672</ObjectId>
+      <StateNumber>26189</StateNumber>
+    </table>
+    <table id="43" parent="12" name="extensions">
+      <ObjectId>17347</ObjectId>
+      <StateNumber>19477</StateNumber>
+    </table>
+    <table id="44" parent="12" name="hints">
+      <ObjectId>17636</ObjectId>
+      <StateNumber>28095</StateNumber>
+    </table>
+    <table id="45" parent="12" name="migration">
+      <ObjectId>17521</ObjectId>
+      <StateNumber>24814</StateNumber>
+    </table>
+    <table id="46" parent="12" name="phonebook">
+      <ObjectId>17439</ObjectId>
+      <StateNumber>29461</StateNumber>
+    </table>
+    <table id="47" parent="12" name="profiles">
+      <ObjectId>17132</ObjectId>
+      <StateNumber>46925</StateNumber>
+    </table>
+    <table id="48" parent="12" name="profiles_assignment">
+      <ObjectId>17708</ObjectId>
+      <StateNumber>46925</StateNumber>
+    </table>
+    <table id="49" parent="12" name="project_scripts">
+      <ObjectId>17096</ObjectId>
+      <StateNumber>25161</StateNumber>
+    </table>
+    <table id="50" parent="12" name="queue">
+      <ObjectId>16795</ObjectId>
+      <StateNumber>50254</StateNumber>
+    </table>
+    <table id="51" parent="12" name="queue_log">
+      <ObjectId>16810</ObjectId>
+      <StateNumber>24769</StateNumber>
+    </table>
+    <table id="52" parent="12" name="queue_member">
+      <ObjectId>16823</ObjectId>
+      <StateNumber>48500</StateNumber>
+    </table>
+    <table id="53" parent="12" name="records">
+      <ObjectId>17125</ObjectId>
+      <StateNumber>10044</StateNumber>
+    </table>
+    <table id="54" parent="12" name="roles">
+      <ObjectId>17414</ObjectId>
+      <StateNumber>20185</StateNumber>
+    </table>
+    <table id="55" parent="12" name="roles_members">
+      <ObjectId>17432</ObjectId>
+      <StateNumber>20399</StateNumber>
+    </table>
+    <table id="56" parent="12" name="route">
+      <ObjectId>17614</ObjectId>
+      <StateNumber>26241</StateNumber>
+    </table>
+    <table id="57" parent="12" name="sip">
+      <ObjectId>16702</ObjectId>
+      <StateNumber>46434</StateNumber>
+    </table>
+    <table id="58" parent="12" name="statuses">
+      <ObjectId>17109</ObjectId>
+      <StateNumber>24760</StateNumber>
+    </table>
+    <routine id="59" parent="12" name="uuid_generate_v1">
+      <ObjectId>17087</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>volatile</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <routine id="60" parent="12" name="uuid_generate_v1mc">
+      <ObjectId>17088</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>volatile</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <routine id="61" parent="12" name="uuid_generate_v3">
+      <ObjectId>17089</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>immutable</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <routine id="62" parent="12" name="uuid_generate_v4">
+      <ObjectId>17090</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>volatile</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <routine id="63" parent="12" name="uuid_generate_v5">
+      <ObjectId>17091</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>immutable</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <routine id="64" parent="12" name="uuid_nil">
+      <ObjectId>17082</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>immutable</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <routine id="65" parent="12" name="uuid_ns_dns">
+      <ObjectId>17083</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>immutable</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <routine id="66" parent="12" name="uuid_ns_oid">
+      <ObjectId>17085</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>immutable</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <routine id="67" parent="12" name="uuid_ns_url">
+      <ObjectId>17084</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>immutable</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <routine id="68" parent="12" name="uuid_ns_x500">
+      <ObjectId>17086</ObjectId>
+      <StateNumber>8259</StateNumber>
+      <VolatilityKind>immutable</VolatilityKind>
+      <LanguageName>c</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ConcurrencyKind>safe</ConcurrencyKind>
+      <Strict>1</Strict>
+      <Cost>1.0</Cost>
+    </routine>
+    <column id="69" parent="37" name="area">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>23963</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="70" parent="37" name="id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>23966</StateNumber>
+      <DefaultExpression>nextval(&apos;areas_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="71" parent="37" name="areas_pkey">
+      <ObjectId>17497</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="37" name="areas_pkey">
+      <ObjectId>17498</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>areas_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="73" parent="38" name="item_name">
+      <Position>1</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24820</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="74" parent="38" name="user_id">
+      <Position>2</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24820</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="75" parent="38" name="created_at">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>24820</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="76" parent="38" name="auth_assignment_pkey">
+      <ObjectId>17566</ObjectId>
+      <ColNames>item_name
+user_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="77" parent="38" name="auth_assignment_user_id_idx">
+      <ObjectId>17573</ObjectId>
+      <ColNames>user_id</ColNames>
+    </index>
+    <key id="78" parent="38" name="auth_assignment_pkey">
+      <ObjectId>17567</ObjectId>
+      <ColNames>item_name
+user_id</ColNames>
+      <UnderlyingIndexName>auth_assignment_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="79" parent="38" name="auth_assignment_item_name_fkey">
+      <ObjectId>17568</ObjectId>
+      <ColNames>item_name</ColNames>
+      <RefTableId>17534</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>auth_item</RefTableName>
+      <RefKeyName>auth_item_pkey</RefKeyName>
+      <RefColNames>name</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="80" parent="39" name="name">
+      <Position>1</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24817</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="81" parent="39" name="type">
+      <Position>2</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24817</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="82" parent="39" name="description">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>24817</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="83" parent="39" name="rule_name">
+      <Position>4</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <StateNumber>24817</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="84" parent="39" name="data">
+      <Position>5</Position>
+      <DataType>bytea|0s</DataType>
+      <StateNumber>24817</StateNumber>
+      <TypeId>17</TypeId>
+    </column>
+    <column id="85" parent="39" name="created_at">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>24817</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="86" parent="39" name="updated_at">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>24817</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="87" parent="39" name="auth_item_pkey">
+      <ObjectId>17540</ObjectId>
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="88" parent="39" name="idx-auth_item-type">
+      <ObjectId>17547</ObjectId>
+      <ColNames>type</ColNames>
+    </index>
+    <key id="89" parent="39" name="auth_item_pkey">
+      <ObjectId>17541</ObjectId>
+      <ColNames>name</ColNames>
+      <UnderlyingIndexName>auth_item_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="90" parent="39" name="auth_item_rule_name_fkey">
+      <ObjectId>17542</ObjectId>
+      <ColNames>rule_name</ColNames>
+      <RefTableId>17526</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>auth_rule</RefTableName>
+      <RefKeyName>auth_rule_pkey</RefKeyName>
+      <RefColNames>name</RefColNames>
+      <OnDelete>set-null</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="91" parent="40" name="parent">
+      <Position>1</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24819</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="92" parent="40" name="child">
+      <Position>2</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24819</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="93" parent="40" name="auth_item_child_pkey">
+      <ObjectId>17551</ObjectId>
+      <ColNames>parent
+child</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="94" parent="40" name="auth_item_child_pkey">
+      <ObjectId>17552</ObjectId>
+      <ColNames>parent
+child</ColNames>
+      <UnderlyingIndexName>auth_item_child_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="95" parent="40" name="auth_item_child_parent_fkey">
+      <ObjectId>17553</ObjectId>
+      <ColNames>parent</ColNames>
+      <RefTableId>17534</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>auth_item</RefTableName>
+      <RefKeyName>auth_item_pkey</RefKeyName>
+      <RefColNames>name</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <foreign-key id="96" parent="40" name="auth_item_child_child_fkey">
+      <ObjectId>17558</ObjectId>
+      <ColNames>child</ColNames>
+      <RefTableId>17534</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>auth_item</RefTableName>
+      <RefKeyName>auth_item_pkey</RefKeyName>
+      <RefColNames>name</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="97" parent="41" name="name">
+      <Position>1</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24816</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="98" parent="41" name="data">
+      <Position>2</Position>
+      <DataType>bytea|0s</DataType>
+      <StateNumber>24816</StateNumber>
+      <TypeId>17</TypeId>
+    </column>
+    <column id="99" parent="41" name="created_at">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>24816</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="100" parent="41" name="updated_at">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>24816</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="101" parent="41" name="auth_rule_pkey">
+      <ObjectId>17532</ObjectId>
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="102" parent="41" name="auth_rule_pkey">
+      <ObjectId>17533</ObjectId>
+      <ColNames>name</ColNames>
+      <UnderlyingIndexName>auth_rule_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="103" parent="42" name="cdr_pkey">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>nextval(&apos;cdr_cdr_pkey_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="104" parent="42" name="clid">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="105" parent="42" name="src">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="106" parent="42" name="dst">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="107" parent="42" name="callend">
+      <Position>6</Position>
+      <DataType>timestamp(6)|0s</DataType>
+      <StateNumber>17466</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="108" parent="42" name="answer">
+      <Position>8</Position>
+      <DataType>timestamp(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>17679</StateNumber>
+      <DefaultExpression>timezone(&apos;GMT&apos;::text, now())</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="109" parent="42" name="dcontext">
+      <Position>9</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="110" parent="42" name="channel">
+      <Position>10</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="111" parent="42" name="dstchannel">
+      <Position>11</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="112" parent="42" name="lastapp">
+      <Position>12</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="113" parent="42" name="lastdata">
+      <Position>13</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="114" parent="42" name="duration">
+      <Position>14</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;0&apos;::bigint</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="115" parent="42" name="billsec">
+      <Position>15</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;0&apos;::bigint</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="116" parent="42" name="disposition">
+      <Position>16</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="117" parent="42" name="amaflags">
+      <Position>17</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;0&apos;::bigint</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="118" parent="42" name="accountcode">
+      <Position>18</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="119" parent="42" name="uniqueid">
+      <Position>19</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="120" parent="42" name="call_id">
+      <Position>20</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <DefaultExpression>&apos;&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="121" parent="42" name="calldate">
+      <Position>21</Position>
+      <DataType>timestamp(6)|0s</DataType>
+      <StateNumber>17564</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="122" parent="42" name="start">
+      <Position>22</Position>
+      <DataType>timestamp(6)|0s</DataType>
+      <StateNumber>17654</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="123" parent="42" name="recordingfile">
+      <Position>23</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>19400</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="124" parent="42" name="cdr_pkey">
+      <ObjectId>16698</ObjectId>
+      <ColNames>cdr_pkey</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="125" parent="42" name="cdr_pkey">
+      <ObjectId>16699</ObjectId>
+      <ColNames>cdr_pkey</ColNames>
+      <UnderlyingIndexName>cdr_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="126" parent="43" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>19465</StateNumber>
+      <DefaultExpression>nextval(&apos;extensions_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="127" parent="43" name="context">
+      <Position>2</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>29019</StateNumber>
+      <DefaultExpression>&apos;base&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="128" parent="43" name="exten">
+      <Position>3</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>19465</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="129" parent="43" name="priority">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>19465</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="130" parent="43" name="app">
+      <Position>5</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>19465</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="131" parent="43" name="appdata">
+      <Position>6</Position>
+      <DataType>varchar(256)|0s</DataType>
+      <StateNumber>30439</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="132" parent="43" name="extensions_id_key">
+      <ObjectId>17358</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="133" parent="43" name="extensions_pkey">
+      <ObjectId>17356</ObjectId>
+      <ColNames>context
+exten
+priority</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="134" parent="43" name="extensions_pkey">
+      <ObjectId>17357</ObjectId>
+      <ColNames>context
+exten
+priority</ColNames>
+      <UnderlyingIndexName>extensions_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="135" parent="43" name="extensions_id_key">
+      <ObjectId>17359</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>extensions_id_key</UnderlyingIndexName>
+    </key>
+    <column id="136" parent="44" name="exten">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>28095</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="137" parent="44" name="channels">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>28095</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="138" parent="44" name="hints_pkey">
+      <ObjectId>17642</ObjectId>
+      <ColNames>exten</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="139" parent="44" name="hints_pkey">
+      <ObjectId>17643</ObjectId>
+      <ColNames>exten</ColNames>
+      <UnderlyingIndexName>hints_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="140" parent="45" name="version">
+      <Position>1</Position>
+      <DataType>varchar(180)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24814</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="141" parent="45" name="apply_time">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>24814</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="142" parent="45" name="migration_pkey">
+      <ObjectId>17524</ObjectId>
+      <ColNames>version</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="143" parent="45" name="migration_pkey">
+      <ObjectId>17525</ObjectId>
+      <ColNames>version</ColNames>
+      <UnderlyingIndexName>migration_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="144" parent="46" name="id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>21390</StateNumber>
+      <DefaultExpression>nextval(&apos;phonebook_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="145" parent="46" name="callerid">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>22693</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="146" parent="46" name="int_number">
+      <Position>5</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>22696</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="147" parent="46" name="Group">
+      <Position>6</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <StateNumber>22692</StateNumber>
+      <DefaultExpression>&apos;base&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="148" parent="46" name="ext_number">
+      <Position>7</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>22695</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="149" parent="46" name="redirrect">
+      <Position>8</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>23657</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="150" parent="46" name="login">
+      <Position>9</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>29461</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="151" parent="46" name="1">
+      <ObjectId>17457</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="152" parent="46" name="1">
+      <ObjectId>17458</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>1</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="153" parent="47" name="profile">
+      <Position>1</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12817</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="154" parent="47" name="wrapup">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>12816</StateNumber>
+      <DefaultExpression>30</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="155" parent="47" name="autoaccept">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>19369</StateNumber>
+      <DefaultExpression>10</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="156" parent="47" name="id">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>46921</StateNumber>
+      <DefaultExpression>nextval(&apos;project_uuid&apos;::regclass)</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="157" parent="47" name="profiles_pkey">
+      <ObjectId>17698</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="158" parent="47" name="profiles_pkey">
+      <ObjectId>17699</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>profiles_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="159" parent="48" name="profile">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>46963</StateNumber>
+      <DefaultExpression>&apos;default&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="160" parent="48" name="queue_uuid">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>46918</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="161" parent="48" name="profile_id">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>46964</StateNumber>
+      <DefaultExpression>4</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="162" parent="48" name="profiles_assignment_pkey">
+      <ObjectId>17714</ObjectId>
+      <ColNames>queue_uuid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="163" parent="48" name="profiles_assignment_pkey">
+      <ObjectId>17715</ObjectId>
+      <ColNames>queue_uuid</ColNames>
+      <UnderlyingIndexName>profiles_assignment_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="164" parent="48" name="profiles_assignment_profile_id_fkey">
+      <ObjectId>17716</ObjectId>
+      <ColNames>profile_id</ColNames>
+      <RefTableId>17132</RefTableId>
+      <RefColPositions>6</RefColPositions>
+      <RefTableName>profiles</RefTableName>
+      <RefKeyName>profiles_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="165" parent="49" name="script">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>16947</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="166" parent="49" name="uuid">
+      <Position>6</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25162</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="167" parent="49" name="project_scripts_pkey">
+      <ObjectId>17592</ObjectId>
+      <ColNames>uuid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="168" parent="49" name="project_scripts_pkey">
+      <ObjectId>17593</ObjectId>
+      <ColNames>uuid</ColNames>
+      <UnderlyingIndexName>project_scripts_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="169" parent="50" name="name">
+      <Position>1</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="170" parent="50" name="musiconhold">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="171" parent="50" name="announce">
+      <Position>3</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="172" parent="50" name="context">
+      <Position>4</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>8269</StateNumber>
+      <DefaultExpression>&apos;base&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="173" parent="50" name="timeout">
+      <Position>5</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="174" parent="50" name="monitor_join">
+      <Position>6</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="175" parent="50" name="queue_youarenext">
+      <Position>8</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="176" parent="50" name="queue_thereare">
+      <Position>9</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="177" parent="50" name="queue_callswaiting">
+      <Position>10</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="178" parent="50" name="queue_holdtime">
+      <Position>11</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="179" parent="50" name="queue_minutes">
+      <Position>12</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="180" parent="50" name="queue_seconds">
+      <Position>13</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="181" parent="50" name="queue_lessthan">
+      <Position>14</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="182" parent="50" name="queue_thankyou">
+      <Position>15</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="183" parent="50" name="queue_reporthold">
+      <Position>16</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="184" parent="50" name="announce_frequency">
+      <Position>17</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="185" parent="50" name="announce_round_seconds">
+      <Position>18</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="186" parent="50" name="announce_holdtime">
+      <Position>19</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="187" parent="50" name="retry">
+      <Position>20</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="188" parent="50" name="maxlen">
+      <Position>22</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="189" parent="50" name="servicelevel">
+      <Position>23</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="190" parent="50" name="strategy">
+      <Position>24</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="191" parent="50" name="joinempty">
+      <Position>25</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="192" parent="50" name="leavewhenempty">
+      <Position>26</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="193" parent="50" name="eventmemberstatus">
+      <Position>27</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="194" parent="50" name="eventwhencalled">
+      <Position>28</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="195" parent="50" name="reportholdtime">
+      <Position>29</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="196" parent="50" name="memberdelay">
+      <Position>30</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="197" parent="50" name="weight">
+      <Position>31</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>25318</StateNumber>
+      <DefaultExpression>1</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="198" parent="50" name="timeoutrestart">
+      <Position>32</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>649</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="199" parent="50" name="ringinuse">
+      <Position>33</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>8095</StateNumber>
+      <DefaultExpression>&apos;no&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="200" parent="50" name="createlink">
+      <Position>36</Position>
+      <DataType>varchar(5)|0s</DataType>
+      <StateNumber>17443</StateNumber>
+      <DefaultExpression>&apos;yes&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="201" parent="50" name="shared_lastcall">
+      <Position>38</Position>
+      <DataType>varchar(4)|0s</DataType>
+      <StateNumber>18564</StateNumber>
+      <DefaultExpression>&apos;yes&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="202" parent="50" name="recordagentcalls">
+      <Position>39</Position>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>19409</StateNumber>
+      <DefaultExpression>&apos;yes&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="203" parent="50" name="monitor_format">
+      <Position>40</Position>
+      <DataType>varchar(19)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>26720</StateNumber>
+      <DefaultExpression>&apos;gsm&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="204" parent="50" name="original_name">
+      <Position>41</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>23639</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="205" parent="50" name="uuid">
+      <Position>42</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>28483</StateNumber>
+      <DefaultExpression>uuid_generate_v4()</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="206" parent="50" name="exten">
+      <Position>43</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>26662</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="207" parent="50" name="type">
+      <Position>44</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>26721</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="208" parent="50" name="dialer_time">
+      <Position>46</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>50258</StateNumber>
+      <DefaultExpression>25</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="209" parent="50" name="transfer_calls">
+      <Position>47</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>50265</StateNumber>
+      <DefaultExpression>&apos;Tt&apos;::text</DefaultExpression>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="210" parent="50" name="queue_pkey">
+      <ObjectId>17644</ObjectId>
+      <ColNames>uuid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="211" parent="50" name="queue_pkey">
+      <ObjectId>17645</ObjectId>
+      <ColNames>uuid</ColNames>
+      <UnderlyingIndexName>queue_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="212" parent="51" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <DefaultExpression>nextval(&apos;queue_log_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="213" parent="51" name="time">
+      <Position>2</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="214" parent="51" name="callid">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="215" parent="51" name="queuename">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="216" parent="51" name="agent">
+      <Position>5</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="217" parent="51" name="event">
+      <Position>6</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="218" parent="51" name="data1">
+      <Position>7</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="219" parent="51" name="data2">
+      <Position>8</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="220" parent="51" name="data3">
+      <Position>9</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="221" parent="51" name="data4">
+      <Position>10</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="222" parent="51" name="data5">
+      <Position>11</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>654</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="223" parent="51" name="agentstatus">
+      <Position>12</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <StateNumber>2518</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="224" parent="51" name="queue_log_pkey">
+      <ObjectId>16815</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="225" parent="51" name="queue_log_pkey">
+      <ObjectId>16816</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>queue_log_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="226" parent="52" name="uniqueid">
+      <Position>1</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>8263</StateNumber>
+      <DefaultExpression>uuid_generate_v4()</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="227" parent="52" name="queue_name">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>668</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="228" parent="52" name="interface">
+      <Position>3</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>668</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="229" parent="52" name="logged">
+      <Position>4</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>668</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="230" parent="52" name="free">
+      <Position>5</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <StateNumber>668</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="231" parent="52" name="ready">
+      <Position>6</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <StateNumber>668</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="232" parent="52" name="count">
+      <Position>8</Position>
+      <DataType>varchar(8)|0s</DataType>
+      <StateNumber>668</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="233" parent="52" name="penalty">
+      <Position>9</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>668</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="234" parent="52" name="membername">
+      <Position>10</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <StateNumber>732</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="235" parent="52" name="paused">
+      <Position>11</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>19175</StateNumber>
+      <DefaultExpression>1</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="236" parent="52" name="member_id">
+      <Position>12</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>24929</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="237" parent="52" name="queue_out_priority">
+      <Position>16</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>45514</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="238" parent="52" name="queue_member_pkey">
+      <ObjectId>16826</ObjectId>
+      <ColNames>queue_name
+interface</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="239" parent="52" name="queue_member_pkey">
+      <ObjectId>16827</ObjectId>
+      <ColNames>queue_name
+interface</ColNames>
+      <UnderlyingIndexName>queue_member_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="240" parent="53" name="base_id">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>10044</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="241" parent="53" name="filename">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>10044</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="242" parent="53" name="record_lenght">
+      <Position>3</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>10044</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="243" parent="53" name="created">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>10045</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="244" parent="54" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>20185</StateNumber>
+      <DefaultExpression>nextval(&apos;auto_id_roles&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="245" parent="54" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>20185</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="246" parent="55" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>20399</StateNumber>
+      <DefaultExpression>nextval(&apos;auto_id_roles_member&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="247" parent="55" name="login">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>20399</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="248" parent="55" name="role">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>20399</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="249" parent="56" name="id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>26242</StateNumber>
+      <DefaultExpression>nextval(&apos;route_id&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="250" parent="56" name="prefix">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>26240</StateNumber>
+      <DefaultExpression>10</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="251" parent="56" name="uuid">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>26241</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="252" parent="56" name="route_pkey">
+      <ObjectId>17623</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="253" parent="56" name="route_pkey">
+      <ObjectId>17624</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>route_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="254" parent="57" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>637</StateNumber>
+      <DefaultExpression>nextval(&apos;sip_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="255" parent="57" name="name">
+      <Position>2</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24846</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="256" parent="57" name="context">
+      <Position>8</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <StateNumber>7765</StateNumber>
+      <DefaultExpression>&apos;base&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="257" parent="57" name="host">
+      <Position>13</Position>
+      <DataType>varchar(31)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>637</StateNumber>
+      <DefaultExpression>&apos;dynamic&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="258" parent="57" name="insecure">
+      <Position>14</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <StateNumber>7807</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="259" parent="57" name="nat">
+      <Position>18</Position>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>637</StateNumber>
+      <DefaultExpression>&apos;no&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="260" parent="57" name="port">
+      <Position>23</Position>
+      <DataType>varchar(5)|0s</DataType>
+      <StateNumber>637</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="261" parent="57" name="qualify">
+      <Position>24</Position>
+      <DataType>varchar(3)|0s</DataType>
+      <StateNumber>637</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="262" parent="57" name="secret">
+      <Position>28</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <StateNumber>637</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="263" parent="57" name="type">
+      <Position>29</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7831</StateNumber>
+      <DefaultExpression>&apos;friend&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="264" parent="57" name="disallow">
+      <Position>31</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>637</StateNumber>
+      <DefaultExpression>&apos;all&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="265" parent="57" name="allow">
+      <Position>32</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>7769</StateNumber>
+      <DefaultExpression>&apos;alaw&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="266" parent="57" name="canreinvite">
+      <Position>55</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7990</StateNumber>
+      <DefaultExpression>&apos;no&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="267" parent="57" name="srvlookup">
+      <Position>57</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7833</StateNumber>
+      <DefaultExpression>&apos;no&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="268" parent="57" name="allowoverlap">
+      <Position>58</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7988</StateNumber>
+      <DefaultExpression>&apos;no&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="269" parent="57" name="lastms">
+      <Position>59</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7899</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="270" parent="57" name="ipaddr">
+      <Position>60</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7901</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="271" parent="57" name="callbackextension">
+      <Position>61</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7902</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="272" parent="57" name="fullcontact">
+      <Position>62</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7904</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="273" parent="57" name="useragent">
+      <Position>63</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7907</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="274" parent="57" name="regseconds">
+      <Position>64</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7935</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="275" parent="57" name="defaultuser">
+      <Position>65</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7936</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="276" parent="57" name="encryption">
+      <Position>66</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7956</StateNumber>
+      <DefaultExpression>&apos;yes&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="277" parent="57" name="dtlsenable">
+      <Position>67</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7983</StateNumber>
+      <DefaultExpression>&apos;yes&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="278" parent="57" name="dtlsverify">
+      <Position>68</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7986</StateNumber>
+      <DefaultExpression>&apos;no&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="279" parent="57" name="dtlscertfile">
+      <Position>69</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7982</StateNumber>
+      <DefaultExpression>&apos;/etc/asterisk/keys/asterisk.pem&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="280" parent="57" name="dtlscafile">
+      <Position>70</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7984</StateNumber>
+      <DefaultExpression>&apos;/etc/asterisk/keys/ca.crt&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="281" parent="57" name="dtlssetup">
+      <Position>71</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7985</StateNumber>
+      <DefaultExpression>&apos;actpass&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="282" parent="57" name="avpf">
+      <Position>72</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7996</StateNumber>
+      <DefaultExpression>&apos;yes&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="283" parent="57" name="force_avp">
+      <Position>73</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>7997</StateNumber>
+      <DefaultExpression>&apos;yes&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="284" parent="57" name="icesupport">
+      <Position>74</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>8001</StateNumber>
+      <DefaultExpression>&apos;yes&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="285" parent="57" name="rtcp_mux">
+      <Position>75</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>8002</StateNumber>
+      <DefaultExpression>&apos;yes&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="286" parent="57" name="transport">
+      <Position>76</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>8008</StateNumber>
+      <DefaultExpression>&apos;ws&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="287" parent="57" name="callerid">
+      <Position>77</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>22419</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="288" parent="57" name="role">
+      <Position>80</Position>
+      <DataType>varchar(2044)|0s</DataType>
+      <StateNumber>19804</StateNumber>
+      <DefaultExpression>&apos;operator&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="289" parent="57" name="area">
+      <Position>81</Position>
+      <DataType>varchar(2044)|0s</DataType>
+      <StateNumber>19814</StateNumber>
+      <DefaultExpression>&apos;newcontact&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="290" parent="57" name="status">
+      <Position>82</Position>
+      <DataType>smallint|0s</DataType>
+      <StateNumber>24809</StateNumber>
+      <DefaultExpression>10</DefaultExpression>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="291" parent="57" name="created_at">
+      <Position>83</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>24811</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="292" parent="57" name="updated_at">
+      <Position>84</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>24812</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="293" parent="57" name="auth_key">
+      <Position>85</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>24847</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="294" parent="57" name="root_url">
+      <Position>86</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>26262</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="295" parent="57" name="md5secret">
+      <Position>87</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>28075</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="296" parent="57" name="subscribecontext">
+      <Position>88</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>28305</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="297" parent="57" name="trunk">
+      <Position>89</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>30830</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="298" parent="57" name="username">
+      <Position>90</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>46434</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="299" parent="57" name="sip_conf_pkey">
+      <ObjectId>16718</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="300" parent="57" name="name">
+      <ObjectId>17578</ObjectId>
+      <ColNames>name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="301" parent="57" name="sip_conf_pkey">
+      <ObjectId>16719</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>sip_conf_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="302" parent="58" name="created">
+      <Position>1</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>8999</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="303" parent="58" name="login">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>8996</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="304" parent="58" name="status">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>8997</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <argument id="305" parent="59">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="306" parent="60">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="307" parent="61" name="namespace">
+      <Position>1</Position>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="308" parent="61" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </argument>
+    <argument id="309" parent="61">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="310" parent="62">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="311" parent="63" name="namespace">
+      <Position>1</Position>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="312" parent="63" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </argument>
+    <argument id="313" parent="63">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="314" parent="64">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="315" parent="65">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="316" parent="66">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="317" parent="67">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+    <argument id="318" parent="68">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>uuid|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
